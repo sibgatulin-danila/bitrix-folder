@@ -1,0 +1,112 @@
+#altasib_floataction_window{
+	text-align:left;
+	height:435px;
+	width:300px;
+	z-index:auto;
+	margin-left:auto;
+	margin-right:auto;
+	display:none;
+	background-clip:padding-box;
+	outline:medium none;
+	margin:auto;
+}
+#altasib_floataction_window a img{
+	text-decoration:none;
+	border:none;
+}
+#altasib_floataction_page_block{
+	width:100%;
+	height:0;
+}
+#altasib_floataction_edit_pan{
+	display:inline-block;
+	overflow-y:visible;
+	background-clip:padding-box;
+	outline:medium none;
+	margin:auto;
+	position:absolute;
+	right:50px;
+	top:-47px;
+	width:280px;
+	height:222px;
+	opacity:1!important;
+}
+#altasib_floataction_page_action{
+	opacity:1;
+	position:absolute;
+	display:none;
+	top:54px;
+	height:auto;
+	width:auto;
+	z-index:1330!important;
+}
+#altasib_floataction_page_panel{
+	opacity:1;
+	position:absolute;
+	display:none;
+	height:auto;
+	width:auto;
+	z-index:1538;
+}
+#altasib_floataction_close_kr{
+	position:absolute;
+	z-index:1200;
+	background:url("/bitrix/images/altasib.floataction/close.png") no-repeat center scroll;
+	padding:7px;
+	-moz-border-radius:1px; -webkit-border-radius:1px;
+	display:inline-block;
+	height:26px;
+	top:7px;
+	width:26px;
+	z-index:1000;
+}
+*{
+	outline:medium none;
+}
+#altasib_floataction_close_kr:hover{
+	top:8px;
+	opacity:1!important;
+	background:url("/bitrix/images/altasib.floataction/close_hov.png") no-repeat center scroll;
+	-webkit-transition:background 70ms;
+	-moz-transition:background 70ms;
+	-ms-transition:background 70ms;
+	transition:background 70ms;
+}
+#altasib_floataction_page{
+	position:relative;
+	z-index:750!important;
+	overflow:hidden;
+}
+#altasib_floataction_page img{
+	top:0;
+	width:100%;
+	opacity:0;
+	-webkit-transition:opacity 150ms;
+	-moz-transition:opacity 150ms;
+	-ms-transition:opacity 150ms;
+	transition:opacity 150ms;
+}
+
+#altasib_floataction_page a{
+	display:block;
+	z-index:1;
+}
+#altasib_floataction_page.altasib_floataction_img_loaded img{
+	opacity:1;
+}
+#altasib_floataction_mark{
+	position:absolute;
+	background:url("/bitrix/images/altasib.floataction/1.gif") no-repeat scroll;
+	display:block;
+	top:0;
+	width:200px;
+	height:250px;
+	cursor:pointer;
+	z-index:1195!important;
+}
+#bx-panel .altasib_floataction_icon{
+	background:url("/bitrix/images/altasib.floataction/icon.png") no-repeat scroll 0 7px rgba(0,0,0,0)!important;
+}
+#bx-panel .bx-panel-small-button-text-hover .altasib_floataction_icon, #bx-panel .bx-panel-small-button-arrow-hover .altasib_floataction_icon, #bx-panel .bx-panel-small-button-hover .altasib_floataction_icon{
+	background:url("/bitrix/images/altasib.floataction/icon.png") no-repeat scroll 0 -34px rgba(0,0,0,0)!important;
+}

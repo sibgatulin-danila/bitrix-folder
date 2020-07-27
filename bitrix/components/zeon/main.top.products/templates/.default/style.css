@@ -1,0 +1,75 @@
+.b_main_bottom {
+   margin-top:30px;  
+}
+  
+.b-popular-products {    
+ width:635px;
+ float:right;
+}
+
+.b-popular-products_item {
+   width:33.3%;
+   float:left;
+   position:relative;
+   text-align:center;
+   padding:10px 0;
+}
+
+.b-popular-products_item-pic  {
+ height:218px;   
+}
+
+.b-popular-products_item-name  {
+   color:#000;
+}
+
+.b-popular-products_item-pic img {
+ width:100%;
+}
+.b-popular-products_item-category {  
+ text-transform: uppercase;
+ display: block;
+ color: #838069;
+ font-size: 12px;
+}
+
+.b-popular-products_item-price_old s {
+    text-decoration: line-through;
+}
+
+.b_instagram {
+ width:100%;
+}
+
+.b_instagram_header {
+ color:#808168;
+ text-align: center;
+ padding-top:15px;
+ font-size: 16px;
+ color: #000;
+}
+
+.b_instagram_header a {
+  padding-left:20px;
+  color:#000;
+   background: url(/i/inst_photo.png) no-repeat left 3px;
+}
+
+.b_instagram_items {
+   list-style: none;
+   margin-left: -1%;
+   margin-right: -1%;
+   padding:0;
+}
+
+.b_instagram_items li {
+  display: inline-block;
+  list-style-type: none;
+  width: 18%;
+  margin: 0px 1%;
+  vertical-align: top;
+}
+.b_instagram_items li img {
+  max-width: 100%;
+  max-height: 100%;
+}

@@ -1,0 +1,33 @@
+.admin-section table td {
+ text-align:center;
+ padding:5px 10px;
+}
+
+.admin-section table th {
+ padding-bottom:20px;
+}
+
+.admin-section a {
+color: #2b2f14;
+text-decoration: none;
+}
+
+.admin-section a:hover {
+         text-decoration:underline;
+}
+
+.sortbutton {
+ cursor:pointer;
+ width:16px;
+ height:16px;
+}
+
+.sortbutton.up {
+ margin-bottom:5px;
+ background:url(/i/admin_arr_up.png) no-repeat;
+}
+
+.sortbutton.down {
+ background:url(/i/admin_arr_down.png) no-repeat;
+ margin-left:1px;
+}

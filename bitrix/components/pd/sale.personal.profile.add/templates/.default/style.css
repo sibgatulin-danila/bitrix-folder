@@ -1,0 +1,61 @@
+.profilesList .item  {
+   margin-bottom:50px;
+   text-align:center;
+   cursor:pointer;
+   color:#262a11;
+}
+
+.profilesList .item .number {
+ margin:0 auto 10px auto;
+ color:#fff;
+ font-size:18px;
+ font-weight:bold;
+ border-radius:16px;
+ background:#828266;
+ width:30px;
+ height:30px;
+ line-height:39px;
+ padding-right:1px;
+}
+
+.profilesList .item.active  .number{
+   background:#2a3114;
+}
+
+
+
+.formProfile {
+ background:#f1f0eb;
+ padding:30px 0;
+ border-radius:4px;
+ margin:40px 0;
+}
+
+
+.formProfile form {
+ display:block;
+ width:300px;
+ margin:0 auto;
+}
+
+.sale_order_full_table .textWrap {
+ width:300px;
+}
+
+.sale_order_full_table  td {
+    padding-bottom:30px;
+}
+
+.cusel .cusel-scroll-wrap {
+
+    
+}
+
+
+.manageProfile {
+ margin:0 auto;
+}
+
+.manageProfile td {
+   padding:0 10px;
+}

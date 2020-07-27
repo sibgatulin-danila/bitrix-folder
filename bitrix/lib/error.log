@@ -1,0 +1,1236 @@
+2014-12-10 11:25:02 - Host:  - UNCAUGHT_EXCEPTION - [ErrorException] E_DEPRECATED
+mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead (0)
+/var/www/html/bitrix/modules/main/lib/db/mysqlconnection.php:44
+#0: mysql_connect(string, string, string, boolean)
+	/var/www/html/bitrix/modules/main/lib/db/mysqlconnection.php:44
+#1: Bitrix\Main\DB\MysqlConnection->connectInternal()
+	/var/www/html/bitrix/modules/main/lib/db/mysqlconnection.php:74
+#2: Bitrix\Main\DB\MysqlConnection->queryInternal(string, array, NULL)
+	/var/www/html/bitrix/modules/main/lib/db/connection.php:260
+#3: Bitrix\Main\DB\Connection->query(string)
+	/var/www/html/bitrix/modules/main/lib/config/option.php:150
+#4: Bitrix\Main\Config\Option::load(string, NULL)
+	/var/www/html/bitrix/modules/main/lib/config/option.php:36
+#5: Bitrix\Main\Config\Option::get(string, string, string)
+	/var/www/html/bitrix/modules/main/lib/httprequest.php:279
+#6: Bitrix\Main\HttpRequest->prepareCookie(array)
+	/var/www/html/bitrix/modules/main/lib/httprequest.php:64
+#7: Bitrix\Main\HttpRequest->__construct(object, array, array, array, array)
+	/var/www/html/bitrix/modules/main/lib/httpapplication.php:43
+#8: Bitrix\Main\HttpApplication->initializeContext(array)
+	/var/www/html/bitrix/modules/main/lib/application.php:122
+#9: Bitrix\Main\Application->initializeExtendedKernel(array)
+	/var/www/html/bitrix/modules/main/include.php:5
+#10: require_once(string)
+	/var/www/html/bitrix/modules/main/include/prolog_before.php:14
+#11: require(string)
+	/var/www/html/bitrix/modules/main/tools/cron_events.php:13
+----------
+2014-12-10 11:25:08 - Host: poisondrop.ru - UNCAUGHT_EXCEPTION - [ErrorException] E_DEPRECATED
+mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead (0)
+/var/www/html/bitrix/modules/main/lib/db/mysqlconnection.php:44
+#0: mysql_connect(string, string, string, boolean)
+	/var/www/html/bitrix/modules/main/lib/db/mysqlconnection.php:44
+#1: Bitrix\Main\DB\MysqlConnection->connectInternal()
+	/var/www/html/bitrix/modules/main/lib/db/mysqlconnection.php:74
+#2: Bitrix\Main\DB\MysqlConnection->queryInternal(string, array, NULL)
+	/var/www/html/bitrix/modules/main/lib/db/connection.php:260
+#3: Bitrix\Main\DB\Connection->query(string)
+	/var/www/html/bitrix/modules/main/lib/config/option.php:150
+#4: Bitrix\Main\Config\Option::load(string, NULL)
+	/var/www/html/bitrix/modules/main/lib/config/option.php:36
+#5: Bitrix\Main\Config\Option::get(string, string, string)
+	/var/www/html/bitrix/modules/main/lib/httprequest.php:279
+#6: Bitrix\Main\HttpRequest->prepareCookie(array)
+	/var/www/html/bitrix/modules/main/lib/httprequest.php:64
+#7: Bitrix\Main\HttpRequest->__construct(object, array, array, array, array)
+	/var/www/html/bitrix/modules/main/lib/httpapplication.php:43
+#8: Bitrix\Main\HttpApplication->initializeContext(array)
+	/var/www/html/bitrix/modules/main/lib/application.php:122
+#9: Bitrix\Main\Application->initializeExtendedKernel(array)
+	/var/www/html/bitrix/modules/main/include.php:5
+#10: require_once(string)
+	/var/www/html/bitrix/modules/main/include/prolog_before.php:14
+#11: require_once(string)
+	/var/www/html/bitrix/modules/main/include/prolog.php:11
+#12: require_once(string)
+	/var/www/html/bitrix/header.php:1
+#13: require(string)
+	/var/www/html/catalog/index.php:2
+#14: include_once(string)
+	/var/www/html/bitrix/modules/main/include/urlrewrite.php:150
+#15: include_once(string)
+	/var/www/html/bitrix/urlrewrite.php:2
+----------
+2014-12-10 11:25:14 - Host: www.poisondrop.ru - UNCAUGHT_EXCEPTION - [ErrorException] E_DEPRECATED
+mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead (0)
+/var/www/html/bitrix/modules/main/lib/db/mysqlconnection.php:44
+#0: mysql_connect(string, string, string, boolean)
+	/var/www/html/bitrix/modules/main/lib/db/mysqlconnection.php:44
+#1: Bitrix\Main\DB\MysqlConnection->connectInternal()
+	/var/www/html/bitrix/modules/main/lib/db/mysqlconnection.php:74
+#2: Bitrix\Main\DB\MysqlConnection->queryInternal(string, array, NULL)
+	/var/www/html/bitrix/modules/main/lib/db/connection.php:260
+#3: Bitrix\Main\DB\Connection->query(string)
+	/var/www/html/bitrix/modules/main/lib/config/option.php:150
+#4: Bitrix\Main\Config\Option::load(string, NULL)
+	/var/www/html/bitrix/modules/main/lib/config/option.php:36
+#5: Bitrix\Main\Config\Option::get(string, string, string)
+	/var/www/html/bitrix/modules/main/lib/httprequest.php:279
+#6: Bitrix\Main\HttpRequest->prepareCookie(array)
+	/var/www/html/bitrix/modules/main/lib/httprequest.php:64
+#7: Bitrix\Main\HttpRequest->__construct(object, array, array, array, array)
+	/var/www/html/bitrix/modules/main/lib/httpapplication.php:43
+#8: Bitrix\Main\HttpApplication->initializeContext(array)
+	/var/www/html/bitrix/modules/main/lib/application.php:122
+#9: Bitrix\Main\Application->initializeExtendedKernel(array)
+	/var/www/html/bitrix/modules/main/include.php:5
+#10: require_once(string)
+	/var/www/html/bitrix/modules/main/include/prolog_before.php:14
+#11: require_once(string)
+	/var/www/html/bitrix/modules/main/include/prolog.php:11
+#12: require_once(string)
+	/var/www/html/bitrix/header.php:1
+#13: require(string)
+	/var/www/html/index.php:2
+----------
+2014-12-10 11:25:17 - Host: www.poisondrop.ru - UNCAUGHT_EXCEPTION - [ErrorException] E_DEPRECATED
+mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead (0)
+/var/www/html/bitrix/modules/main/lib/db/mysqlconnection.php:44
+#0: mysql_connect(string, string, string, boolean)
+	/var/www/html/bitrix/modules/main/lib/db/mysqlconnection.php:44
+#1: Bitrix\Main\DB\MysqlConnection->connectInternal()
+	/var/www/html/bitrix/modules/main/lib/db/mysqlconnection.php:74
+#2: Bitrix\Main\DB\MysqlConnection->queryInternal(string, array, NULL)
+	/var/www/html/bitrix/modules/main/lib/db/connection.php:260
+#3: Bitrix\Main\DB\Connection->query(string)
+	/var/www/html/bitrix/modules/main/lib/config/option.php:150
+#4: Bitrix\Main\Config\Option::load(string, NULL)
+	/var/www/html/bitrix/modules/main/lib/config/option.php:36
+#5: Bitrix\Main\Config\Option::get(string, string, string)
+	/var/www/html/bitrix/modules/main/lib/httprequest.php:279
+#6: Bitrix\Main\HttpRequest->prepareCookie(array)
+	/var/www/html/bitrix/modules/main/lib/httprequest.php:64
+#7: Bitrix\Main\HttpRequest->__construct(object, array, array, array, array)
+	/var/www/html/bitrix/modules/main/lib/httpapplication.php:43
+#8: Bitrix\Main\HttpApplication->initializeContext(array)
+	/var/www/html/bitrix/modules/main/lib/application.php:122
+#9: Bitrix\Main\Application->initializeExtendedKernel(array)
+	/var/www/html/bitrix/modules/main/include.php:5
+#10: require_once(string)
+	/var/www/html/bitrix/modules/main/include/prolog_before.php:14
+#11: require_once(string)
+	/var/www/html/bitrix/modules/main/include/prolog.php:11
+#12: require_once(string)
+	/var/www/html/bitrix/header.php:1
+#13: require(string)
+	/var/www/html/index.php:2
+----------
+2014-12-10 11:25:19 - Host: www.poisondrop.ru - UNCAUGHT_EXCEPTION - [ErrorException] E_DEPRECATED
+mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead (0)
+/var/www/html/bitrix/modules/main/lib/db/mysqlconnection.php:44
+#0: mysql_connect(string, string, string, boolean)
+	/var/www/html/bitrix/modules/main/lib/db/mysqlconnection.php:44
+#1: Bitrix\Main\DB\MysqlConnection->connectInternal()
+	/var/www/html/bitrix/modules/main/lib/db/mysqlconnection.php:74
+#2: Bitrix\Main\DB\MysqlConnection->queryInternal(string, array, NULL)
+	/var/www/html/bitrix/modules/main/lib/db/connection.php:260
+#3: Bitrix\Main\DB\Connection->query(string)
+	/var/www/html/bitrix/modules/main/lib/config/option.php:150
+#4: Bitrix\Main\Config\Option::load(string, NULL)
+	/var/www/html/bitrix/modules/main/lib/config/option.php:36
+#5: Bitrix\Main\Config\Option::get(string, string, string)
+	/var/www/html/bitrix/modules/main/lib/httprequest.php:279
+#6: Bitrix\Main\HttpRequest->prepareCookie(array)
+	/var/www/html/bitrix/modules/main/lib/httprequest.php:64
+#7: Bitrix\Main\HttpRequest->__construct(object, array, array, array, array)
+	/var/www/html/bitrix/modules/main/lib/httpapplication.php:43
+#8: Bitrix\Main\HttpApplication->initializeContext(array)
+	/var/www/html/bitrix/modules/main/lib/application.php:122
+#9: Bitrix\Main\Application->initializeExtendedKernel(array)
+	/var/www/html/bitrix/modules/main/include.php:5
+#10: require_once(string)
+	/var/www/html/bitrix/modules/main/include/prolog_before.php:14
+#11: require_once(string)
+	/var/www/html/bitrix/modules/main/include/prolog.php:11
+#12: require_once(string)
+	/var/www/html/bitrix/header.php:1
+#13: require(string)
+	/var/www/html/index.php:2
+----------
+2014-12-10 11:25:22 - Host: poisondrop.ru - UNCAUGHT_EXCEPTION - [ErrorException] E_DEPRECATED
+mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead (0)
+/var/www/html/bitrix/modules/main/lib/db/mysqlconnection.php:44
+#0: mysql_connect(string, string, string, boolean)
+	/var/www/html/bitrix/modules/main/lib/db/mysqlconnection.php:44
+#1: Bitrix\Main\DB\MysqlConnection->connectInternal()
+	/var/www/html/bitrix/modules/main/lib/db/mysqlconnection.php:74
+#2: Bitrix\Main\DB\MysqlConnection->queryInternal(string, array, NULL)
+	/var/www/html/bitrix/modules/main/lib/db/connection.php:260
+#3: Bitrix\Main\DB\Connection->query(string)
+	/var/www/html/bitrix/modules/main/lib/config/option.php:150
+#4: Bitrix\Main\Config\Option::load(string, NULL)
+	/var/www/html/bitrix/modules/main/lib/config/option.php:36
+#5: Bitrix\Main\Config\Option::get(string, string, string)
+	/var/www/html/bitrix/modules/main/lib/httprequest.php:279
+#6: Bitrix\Main\HttpRequest->prepareCookie(array)
+	/var/www/html/bitrix/modules/main/lib/httprequest.php:64
+#7: Bitrix\Main\HttpRequest->__construct(object, array, array, array, array)
+	/var/www/html/bitrix/modules/main/lib/httpapplication.php:43
+#8: Bitrix\Main\HttpApplication->initializeContext(array)
+	/var/www/html/bitrix/modules/main/lib/application.php:122
+#9: Bitrix\Main\Application->initializeExtendedKernel(array)
+	/var/www/html/bitrix/modules/main/include.php:5
+#10: require_once(string)
+	/var/www/html/bitrix/modules/main/include/prolog_before.php:14
+#11: require_once(string)
+	/var/www/html/bitrix/modules/main/include/prolog.php:11
+#12: require_once(string)
+	/var/www/html/bitrix/header.php:1
+#13: require(string)
+	/var/www/html/catalog/index.php:2
+#14: include_once(string)
+	/var/www/html/bitrix/modules/main/include/urlrewrite.php:150
+#15: include_once(string)
+	/var/www/html/bitrix/urlrewrite.php:2
+----------
+2014-12-10 11:25:24 - Host: poisondrop.ru - UNCAUGHT_EXCEPTION - [ErrorException] E_DEPRECATED
+mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead (0)
+/var/www/html/bitrix/modules/main/lib/db/mysqlconnection.php:44
+#0: mysql_connect(string, string, string, boolean)
+	/var/www/html/bitrix/modules/main/lib/db/mysqlconnection.php:44
+#1: Bitrix\Main\DB\MysqlConnection->connectInternal()
+	/var/www/html/bitrix/modules/main/lib/db/mysqlconnection.php:74
+#2: Bitrix\Main\DB\MysqlConnection->queryInternal(string, array, NULL)
+	/var/www/html/bitrix/modules/main/lib/db/connection.php:260
+#3: Bitrix\Main\DB\Connection->query(string)
+	/var/www/html/bitrix/modules/main/lib/config/option.php:150
+#4: Bitrix\Main\Config\Option::load(string, NULL)
+	/var/www/html/bitrix/modules/main/lib/config/option.php:36
+#5: Bitrix\Main\Config\Option::get(string, string, string)
+	/var/www/html/bitrix/modules/main/lib/httprequest.php:279
+#6: Bitrix\Main\HttpRequest->prepareCookie(array)
+	/var/www/html/bitrix/modules/main/lib/httprequest.php:64
+#7: Bitrix\Main\HttpRequest->__construct(object, array, array, array, array)
+	/var/www/html/bitrix/modules/main/lib/httpapplication.php:43
+#8: Bitrix\Main\HttpApplication->initializeContext(array)
+	/var/www/html/bitrix/modules/main/lib/application.php:122
+#9: Bitrix\Main\Application->initializeExtendedKernel(array)
+	/var/www/html/bitrix/modules/main/include.php:5
+#10: require_once(string)
+	/var/www/html/bitrix/modules/main/include/prolog_before.php:14
+#11: require_once(string)
+	/var/www/html/bitrix/modules/main/include/prolog.php:11
+#12: require_once(string)
+	/var/www/html/bitrix/header.php:1
+#13: require(string)
+	/var/www/html/index.php:2
+----------
+2014-12-10 11:25:31 - Host: www.poisondrop.ru - UNCAUGHT_EXCEPTION - [ErrorException] E_DEPRECATED
+mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead (0)
+/var/www/html/bitrix/modules/main/lib/db/mysqlconnection.php:44
+#0: mysql_connect(string, string, string, boolean)
+	/var/www/html/bitrix/modules/main/lib/db/mysqlconnection.php:44
+#1: Bitrix\Main\DB\MysqlConnection->connectInternal()
+	/var/www/html/bitrix/modules/main/lib/db/mysqlconnection.php:74
+#2: Bitrix\Main\DB\MysqlConnection->queryInternal(string, array, NULL)
+	/var/www/html/bitrix/modules/main/lib/db/connection.php:260
+#3: Bitrix\Main\DB\Connection->query(string)
+	/var/www/html/bitrix/modules/main/lib/config/option.php:150
+#4: Bitrix\Main\Config\Option::load(string, NULL)
+	/var/www/html/bitrix/modules/main/lib/config/option.php:36
+#5: Bitrix\Main\Config\Option::get(string, string, string)
+	/var/www/html/bitrix/modules/main/lib/httprequest.php:279
+#6: Bitrix\Main\HttpRequest->prepareCookie(array)
+	/var/www/html/bitrix/modules/main/lib/httprequest.php:64
+#7: Bitrix\Main\HttpRequest->__construct(object, array, array, array, array)
+	/var/www/html/bitrix/modules/main/lib/httpapplication.php:43
+#8: Bitrix\Main\HttpApplication->initializeContext(array)
+	/var/www/html/bitrix/modules/main/lib/application.php:122
+#9: Bitrix\Main\Application->initializeExtendedKernel(array)
+	/var/www/html/bitrix/modules/main/include.php:5
+#10: require_once(string)
+	/var/www/html/bitrix/modules/main/include/prolog_before.php:14
+#11: require_once(string)
+	/var/www/html/bitrix/modules/main/include/prolog.php:11
+#12: require_once(string)
+	/var/www/html/bitrix/header.php:1
+#13: require(string)
+	/var/www/html/catalog/index.php:2
+#14: include_once(string)
+	/var/www/html/bitrix/modules/main/include/urlrewrite.php:150
+#15: include_once(string)
+	/var/www/html/bitrix/urlrewrite.php:2
+----------
+2014-12-10 11:25:32 - Host: poisondrop.ru - UNCAUGHT_EXCEPTION - [ErrorException] E_DEPRECATED
+mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead (0)
+/var/www/html/bitrix/modules/main/lib/db/mysqlconnection.php:44
+#0: mysql_connect(string, string, string, boolean)
+	/var/www/html/bitrix/modules/main/lib/db/mysqlconnection.php:44
+#1: Bitrix\Main\DB\MysqlConnection->connectInternal()
+	/var/www/html/bitrix/modules/main/lib/db/mysqlconnection.php:74
+#2: Bitrix\Main\DB\MysqlConnection->queryInternal(string, array, NULL)
+	/var/www/html/bitrix/modules/main/lib/db/connection.php:260
+#3: Bitrix\Main\DB\Connection->query(string)
+	/var/www/html/bitrix/modules/main/lib/config/option.php:150
+#4: Bitrix\Main\Config\Option::load(string, NULL)
+	/var/www/html/bitrix/modules/main/lib/config/option.php:36
+#5: Bitrix\Main\Config\Option::get(string, string, string)
+	/var/www/html/bitrix/modules/main/lib/httprequest.php:279
+#6: Bitrix\Main\HttpRequest->prepareCookie(array)
+	/var/www/html/bitrix/modules/main/lib/httprequest.php:64
+#7: Bitrix\Main\HttpRequest->__construct(object, array, array, array, array)
+	/var/www/html/bitrix/modules/main/lib/httpapplication.php:43
+#8: Bitrix\Main\HttpApplication->initializeContext(array)
+	/var/www/html/bitrix/modules/main/lib/application.php:122
+#9: Bitrix\Main\Application->initializeExtendedKernel(array)
+	/var/www/html/bitrix/modules/main/include.php:5
+#10: require_once(string)
+	/var/www/html/bitrix/modules/main/include/prolog_before.php:14
+#11: require_once(string)
+	/var/www/html/bitrix/modules/main/include/prolog.php:11
+#12: require_once(string)
+	/var/www/html/bitrix/header.php:1
+#13: require(string)
+	/var/www/html/index.php:2
+----------
+2014-12-10 11:25:32 - Host: poisondrop.ru - UNCAUGHT_EXCEPTION - [ErrorException] E_DEPRECATED
+mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead (0)
+/var/www/html/bitrix/modules/main/lib/db/mysqlconnection.php:44
+#0: mysql_connect(string, string, string, boolean)
+	/var/www/html/bitrix/modules/main/lib/db/mysqlconnection.php:44
+#1: Bitrix\Main\DB\MysqlConnection->connectInternal()
+	/var/www/html/bitrix/modules/main/lib/db/mysqlconnection.php:74
+#2: Bitrix\Main\DB\MysqlConnection->queryInternal(string, array, NULL)
+	/var/www/html/bitrix/modules/main/lib/db/connection.php:260
+#3: Bitrix\Main\DB\Connection->query(string)
+	/var/www/html/bitrix/modules/main/lib/config/option.php:150
+#4: Bitrix\Main\Config\Option::load(string, NULL)
+	/var/www/html/bitrix/modules/main/lib/config/option.php:36
+#5: Bitrix\Main\Config\Option::get(string, string, string)
+	/var/www/html/bitrix/modules/main/lib/httprequest.php:279
+#6: Bitrix\Main\HttpRequest->prepareCookie(array)
+	/var/www/html/bitrix/modules/main/lib/httprequest.php:64
+#7: Bitrix\Main\HttpRequest->__construct(object, array, array, array, array)
+	/var/www/html/bitrix/modules/main/lib/httpapplication.php:43
+#8: Bitrix\Main\HttpApplication->initializeContext(array)
+	/var/www/html/bitrix/modules/main/lib/application.php:122
+#9: Bitrix\Main\Application->initializeExtendedKernel(array)
+	/var/www/html/bitrix/modules/main/include.php:5
+#10: require_once(string)
+	/var/www/html/bitrix/modules/main/include/prolog_before.php:14
+#11: require(string)
+	/var/www/html/bitrix/lib/1c_exchange.php:12
+----------
+2014-12-10 11:25:34 - Host: poisondrop.ru - UNCAUGHT_EXCEPTION - [ErrorException] E_DEPRECATED
+mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead (0)
+/var/www/html/bitrix/modules/main/lib/db/mysqlconnection.php:44
+#0: mysql_connect(string, string, string, boolean)
+	/var/www/html/bitrix/modules/main/lib/db/mysqlconnection.php:44
+#1: Bitrix\Main\DB\MysqlConnection->connectInternal()
+	/var/www/html/bitrix/modules/main/lib/db/mysqlconnection.php:74
+#2: Bitrix\Main\DB\MysqlConnection->queryInternal(string, array, NULL)
+	/var/www/html/bitrix/modules/main/lib/db/connection.php:260
+#3: Bitrix\Main\DB\Connection->query(string)
+	/var/www/html/bitrix/modules/main/lib/config/option.php:150
+#4: Bitrix\Main\Config\Option::load(string, NULL)
+	/var/www/html/bitrix/modules/main/lib/config/option.php:36
+#5: Bitrix\Main\Config\Option::get(string, string, string)
+	/var/www/html/bitrix/modules/main/lib/httprequest.php:279
+#6: Bitrix\Main\HttpRequest->prepareCookie(array)
+	/var/www/html/bitrix/modules/main/lib/httprequest.php:64
+#7: Bitrix\Main\HttpRequest->__construct(object, array, array, array, array)
+	/var/www/html/bitrix/modules/main/lib/httpapplication.php:43
+#8: Bitrix\Main\HttpApplication->initializeContext(array)
+	/var/www/html/bitrix/modules/main/lib/application.php:122
+#9: Bitrix\Main\Application->initializeExtendedKernel(array)
+	/var/www/html/bitrix/modules/main/include.php:5
+#10: require_once(string)
+	/var/www/html/bitrix/modules/main/include/prolog_before.php:14
+#11: require_once(string)
+	/var/www/html/bitrix/modules/main/include/prolog.php:11
+#12: require_once(string)
+	/var/www/html/bitrix/header.php:1
+#13: require(string)
+	/var/www/html/catalog/index.php:2
+#14: include_once(string)
+	/var/www/html/bitrix/modules/main/include/urlrewrite.php:150
+#15: include_once(string)
+	/var/www/html/bitrix/urlrewrite.php:2
+----------
+2014-12-10 11:25:36 - Host: poisondrop.ru - UNCAUGHT_EXCEPTION - [ErrorException] E_DEPRECATED
+mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead (0)
+/var/www/html/bitrix/modules/main/lib/db/mysqlconnection.php:44
+#0: mysql_connect(string, string, string, boolean)
+	/var/www/html/bitrix/modules/main/lib/db/mysqlconnection.php:44
+#1: Bitrix\Main\DB\MysqlConnection->connectInternal()
+	/var/www/html/bitrix/modules/main/lib/db/mysqlconnection.php:74
+#2: Bitrix\Main\DB\MysqlConnection->queryInternal(string, array, NULL)
+	/var/www/html/bitrix/modules/main/lib/db/connection.php:260
+#3: Bitrix\Main\DB\Connection->query(string)
+	/var/www/html/bitrix/modules/main/lib/config/option.php:150
+#4: Bitrix\Main\Config\Option::load(string, NULL)
+	/var/www/html/bitrix/modules/main/lib/config/option.php:36
+#5: Bitrix\Main\Config\Option::get(string, string, string)
+	/var/www/html/bitrix/modules/main/lib/httprequest.php:279
+#6: Bitrix\Main\HttpRequest->prepareCookie(array)
+	/var/www/html/bitrix/modules/main/lib/httprequest.php:64
+#7: Bitrix\Main\HttpRequest->__construct(object, array, array, array, array)
+	/var/www/html/bitrix/modules/main/lib/httpapplication.php:43
+#8: Bitrix\Main\HttpApplication->initializeContext(array)
+	/var/www/html/bitrix/modules/main/lib/application.php:122
+#9: Bitrix\Main\Application->initializeExtendedKernel(array)
+	/var/www/html/bitrix/modules/main/include.php:5
+#10: require_once(string)
+	/var/www/html/bitrix/modules/main/include/prolog_before.php:14
+#11: require_once(string)
+	/var/www/html/bitrix/modules/main/include/prolog.php:11
+#12: require_once(string)
+	/var/www/html/bitrix/header.php:1
+#13: require(string)
+	/var/www/html/catalog/index.php:2
+#14: include_once(string)
+	/var/www/html/bitrix/modules/main/include/urlrewrite.php:150
+#15: include_once(string)
+	/var/www/html/bitrix/urlrewrite.php:2
+----------
+2014-12-10 11:25:43 - Host: www.poisondrop.ru - UNCAUGHT_EXCEPTION - [ErrorException] E_DEPRECATED
+mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead (0)
+/var/www/html/bitrix/modules/main/lib/db/mysqlconnection.php:44
+#0: mysql_connect(string, string, string, boolean)
+	/var/www/html/bitrix/modules/main/lib/db/mysqlconnection.php:44
+#1: Bitrix\Main\DB\MysqlConnection->connectInternal()
+	/var/www/html/bitrix/modules/main/lib/db/mysqlconnection.php:74
+#2: Bitrix\Main\DB\MysqlConnection->queryInternal(string, array, NULL)
+	/var/www/html/bitrix/modules/main/lib/db/connection.php:260
+#3: Bitrix\Main\DB\Connection->query(string)
+	/var/www/html/bitrix/modules/main/lib/config/option.php:150
+#4: Bitrix\Main\Config\Option::load(string, NULL)
+	/var/www/html/bitrix/modules/main/lib/config/option.php:36
+#5: Bitrix\Main\Config\Option::get(string, string, string)
+	/var/www/html/bitrix/modules/main/lib/httprequest.php:279
+#6: Bitrix\Main\HttpRequest->prepareCookie(array)
+	/var/www/html/bitrix/modules/main/lib/httprequest.php:64
+#7: Bitrix\Main\HttpRequest->__construct(object, array, array, array, array)
+	/var/www/html/bitrix/modules/main/lib/httpapplication.php:43
+#8: Bitrix\Main\HttpApplication->initializeContext(array)
+	/var/www/html/bitrix/modules/main/lib/application.php:122
+#9: Bitrix\Main\Application->initializeExtendedKernel(array)
+	/var/www/html/bitrix/modules/main/include.php:5
+#10: require_once(string)
+	/var/www/html/bitrix/modules/main/include/prolog_before.php:14
+#11: require_once(string)
+	/var/www/html/bitrix/modules/main/include/prolog.php:11
+#12: require_once(string)
+	/var/www/html/bitrix/header.php:1
+#13: require(string)
+	/var/www/html/index.php:2
+----------
+2014-12-10 11:25:44 - Host: poisondrop.ru - UNCAUGHT_EXCEPTION - [ErrorException] E_DEPRECATED
+mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead (0)
+/var/www/html/bitrix/modules/main/lib/db/mysqlconnection.php:44
+#0: mysql_connect(string, string, string, boolean)
+	/var/www/html/bitrix/modules/main/lib/db/mysqlconnection.php:44
+#1: Bitrix\Main\DB\MysqlConnection->connectInternal()
+	/var/www/html/bitrix/modules/main/lib/db/mysqlconnection.php:74
+#2: Bitrix\Main\DB\MysqlConnection->queryInternal(string, array, NULL)
+	/var/www/html/bitrix/modules/main/lib/db/connection.php:260
+#3: Bitrix\Main\DB\Connection->query(string)
+	/var/www/html/bitrix/modules/main/lib/config/option.php:150
+#4: Bitrix\Main\Config\Option::load(string, NULL)
+	/var/www/html/bitrix/modules/main/lib/config/option.php:36
+#5: Bitrix\Main\Config\Option::get(string, string, string)
+	/var/www/html/bitrix/modules/main/lib/httprequest.php:279
+#6: Bitrix\Main\HttpRequest->prepareCookie(array)
+	/var/www/html/bitrix/modules/main/lib/httprequest.php:64
+#7: Bitrix\Main\HttpRequest->__construct(object, array, array, array, array)
+	/var/www/html/bitrix/modules/main/lib/httpapplication.php:43
+#8: Bitrix\Main\HttpApplication->initializeContext(array)
+	/var/www/html/bitrix/modules/main/lib/application.php:122
+#9: Bitrix\Main\Application->initializeExtendedKernel(array)
+	/var/www/html/bitrix/modules/main/include.php:5
+#10: require_once(string)
+	/var/www/html/bitrix/modules/main/include/prolog_before.php:14
+#11: require_once(string)
+	/var/www/html/bitrix/modules/main/include/prolog.php:11
+#12: require_once(string)
+	/var/www/html/bitrix/header.php:1
+#13: require(string)
+	/var/www/html/catalog/index.php:2
+#14: include_once(string)
+	/var/www/html/bitrix/modules/main/include/urlrewrite.php:150
+#15: include_once(string)
+	/var/www/html/bitrix/urlrewrite.php:2
+----------
+2014-12-10 11:25:45 - Host: poisondrop.ru - UNCAUGHT_EXCEPTION - [ErrorException] E_DEPRECATED
+mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead (0)
+/var/www/html/bitrix/modules/main/lib/db/mysqlconnection.php:44
+#0: mysql_connect(string, string, string, boolean)
+	/var/www/html/bitrix/modules/main/lib/db/mysqlconnection.php:44
+#1: Bitrix\Main\DB\MysqlConnection->connectInternal()
+	/var/www/html/bitrix/modules/main/lib/db/mysqlconnection.php:74
+#2: Bitrix\Main\DB\MysqlConnection->queryInternal(string, array, NULL)
+	/var/www/html/bitrix/modules/main/lib/db/connection.php:260
+#3: Bitrix\Main\DB\Connection->query(string)
+	/var/www/html/bitrix/modules/main/lib/config/option.php:150
+#4: Bitrix\Main\Config\Option::load(string, NULL)
+	/var/www/html/bitrix/modules/main/lib/config/option.php:36
+#5: Bitrix\Main\Config\Option::get(string, string, string)
+	/var/www/html/bitrix/modules/main/lib/httprequest.php:279
+#6: Bitrix\Main\HttpRequest->prepareCookie(array)
+	/var/www/html/bitrix/modules/main/lib/httprequest.php:64
+#7: Bitrix\Main\HttpRequest->__construct(object, array, array, array, array)
+	/var/www/html/bitrix/modules/main/lib/httpapplication.php:43
+#8: Bitrix\Main\HttpApplication->initializeContext(array)
+	/var/www/html/bitrix/modules/main/lib/application.php:122
+#9: Bitrix\Main\Application->initializeExtendedKernel(array)
+	/var/www/html/bitrix/modules/main/include.php:5
+#10: require_once(string)
+	/var/www/html/bitrix/modules/main/include/prolog_before.php:14
+#11: require_once(string)
+	/var/www/html/bitrix/modules/main/include/prolog.php:11
+#12: require_once(string)
+	/var/www/html/bitrix/header.php:1
+#13: require(string)
+	/var/www/html/catalog/index.php:2
+#14: include_once(string)
+	/var/www/html/bitrix/modules/main/include/urlrewrite.php:150
+#15: include_once(string)
+	/var/www/html/bitrix/urlrewrite.php:2
+----------
+2014-12-10 11:25:57 - Host: poisondrop.com - UNCAUGHT_EXCEPTION - [ErrorException] E_DEPRECATED
+mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead (0)
+/var/www/html/bitrix/modules/main/lib/db/mysqlconnection.php:44
+#0: mysql_connect(string, string, string, boolean)
+	/var/www/html/bitrix/modules/main/lib/db/mysqlconnection.php:44
+#1: Bitrix\Main\DB\MysqlConnection->connectInternal()
+	/var/www/html/bitrix/modules/main/lib/db/mysqlconnection.php:74
+#2: Bitrix\Main\DB\MysqlConnection->queryInternal(string, array, NULL)
+	/var/www/html/bitrix/modules/main/lib/db/connection.php:260
+#3: Bitrix\Main\DB\Connection->query(string)
+	/var/www/html/bitrix/modules/main/lib/config/option.php:150
+#4: Bitrix\Main\Config\Option::load(string, NULL)
+	/var/www/html/bitrix/modules/main/lib/config/option.php:36
+#5: Bitrix\Main\Config\Option::get(string, string, string)
+	/var/www/html/bitrix/modules/main/lib/httprequest.php:279
+#6: Bitrix\Main\HttpRequest->prepareCookie(array)
+	/var/www/html/bitrix/modules/main/lib/httprequest.php:64
+#7: Bitrix\Main\HttpRequest->__construct(object, array, array, array, array)
+	/var/www/html/bitrix/modules/main/lib/httpapplication.php:43
+#8: Bitrix\Main\HttpApplication->initializeContext(array)
+	/var/www/html/bitrix/modules/main/lib/application.php:122
+#9: Bitrix\Main\Application->initializeExtendedKernel(array)
+	/var/www/html/bitrix/modules/main/include.php:5
+#10: require_once(string)
+	/var/www/html/bitrix/modules/main/include/prolog_before.php:14
+#11: require_once(string)
+	/var/www/html/bitrix/modules/main/include/prolog.php:11
+#12: require_once(string)
+	/var/www/html/bitrix/header.php:1
+#13: require(string)
+	/var/www/html/catalog/index.php:2
+#14: include_once(string)
+	/var/www/html/bitrix/modules/main/include/urlrewrite.php:150
+#15: include_once(string)
+	/var/www/html/bitrix/urlrewrite.php:2
+----------
+2014-12-10 11:26:01 - Host:  - UNCAUGHT_EXCEPTION - [ErrorException] E_DEPRECATED
+mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead (0)
+/var/www/html/bitrix/modules/main/lib/db/mysqlconnection.php:44
+#0: mysql_connect(string, string, string, boolean)
+	/var/www/html/bitrix/modules/main/lib/db/mysqlconnection.php:44
+#1: Bitrix\Main\DB\MysqlConnection->connectInternal()
+	/var/www/html/bitrix/modules/main/lib/db/mysqlconnection.php:74
+#2: Bitrix\Main\DB\MysqlConnection->queryInternal(string, array, NULL)
+	/var/www/html/bitrix/modules/main/lib/db/connection.php:260
+#3: Bitrix\Main\DB\Connection->query(string)
+	/var/www/html/bitrix/modules/main/lib/config/option.php:150
+#4: Bitrix\Main\Config\Option::load(string, NULL)
+	/var/www/html/bitrix/modules/main/lib/config/option.php:36
+#5: Bitrix\Main\Config\Option::get(string, string, string)
+	/var/www/html/bitrix/modules/main/lib/httprequest.php:279
+#6: Bitrix\Main\HttpRequest->prepareCookie(array)
+	/var/www/html/bitrix/modules/main/lib/httprequest.php:64
+#7: Bitrix\Main\HttpRequest->__construct(object, array, array, array, array)
+	/var/www/html/bitrix/modules/main/lib/httpapplication.php:43
+#8: Bitrix\Main\HttpApplication->initializeContext(array)
+	/var/www/html/bitrix/modules/main/lib/application.php:122
+#9: Bitrix\Main\Application->initializeExtendedKernel(array)
+	/var/www/html/bitrix/modules/main/include.php:5
+#10: require_once(string)
+	/var/www/html/bitrix/modules/main/include/prolog_before.php:14
+#11: require(string)
+	/var/www/html/bitrix/modules/main/tools/cron_events.php:13
+----------
+2014-12-10 11:26:03 - Host: poisondrop.ru - UNCAUGHT_EXCEPTION - [ErrorException] E_DEPRECATED
+mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead (0)
+/var/www/html/bitrix/modules/main/lib/db/mysqlconnection.php:44
+#0: mysql_connect(string, string, string, boolean)
+	/var/www/html/bitrix/modules/main/lib/db/mysqlconnection.php:44
+#1: Bitrix\Main\DB\MysqlConnection->connectInternal()
+	/var/www/html/bitrix/modules/main/lib/db/mysqlconnection.php:74
+#2: Bitrix\Main\DB\MysqlConnection->queryInternal(string, array, NULL)
+	/var/www/html/bitrix/modules/main/lib/db/connection.php:260
+#3: Bitrix\Main\DB\Connection->query(string)
+	/var/www/html/bitrix/modules/main/lib/config/option.php:150
+#4: Bitrix\Main\Config\Option::load(string, NULL)
+	/var/www/html/bitrix/modules/main/lib/config/option.php:36
+#5: Bitrix\Main\Config\Option::get(string, string, string)
+	/var/www/html/bitrix/modules/main/lib/httprequest.php:279
+#6: Bitrix\Main\HttpRequest->prepareCookie(array)
+	/var/www/html/bitrix/modules/main/lib/httprequest.php:64
+#7: Bitrix\Main\HttpRequest->__construct(object, array, array, array, array)
+	/var/www/html/bitrix/modules/main/lib/httpapplication.php:43
+#8: Bitrix\Main\HttpApplication->initializeContext(array)
+	/var/www/html/bitrix/modules/main/lib/application.php:122
+#9: Bitrix\Main\Application->initializeExtendedKernel(array)
+	/var/www/html/bitrix/modules/main/include.php:5
+#10: require_once(string)
+	/var/www/html/bitrix/modules/main/include/prolog_before.php:14
+#11: require_once(string)
+	/var/www/html/bitrix/modules/main/include/prolog.php:11
+#12: require_once(string)
+	/var/www/html/bitrix/header.php:1
+#13: require(string)
+	/var/www/html/catalog/index.php:2
+#14: include_once(string)
+	/var/www/html/bitrix/modules/main/include/urlrewrite.php:150
+#15: include_once(string)
+	/var/www/html/bitrix/urlrewrite.php:2
+----------
+2014-12-10 11:26:04 - Host: poisondrop.com - UNCAUGHT_EXCEPTION - [ErrorException] E_DEPRECATED
+mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead (0)
+/var/www/html/bitrix/modules/main/lib/db/mysqlconnection.php:44
+#0: mysql_connect(string, string, string, boolean)
+	/var/www/html/bitrix/modules/main/lib/db/mysqlconnection.php:44
+#1: Bitrix\Main\DB\MysqlConnection->connectInternal()
+	/var/www/html/bitrix/modules/main/lib/db/mysqlconnection.php:74
+#2: Bitrix\Main\DB\MysqlConnection->queryInternal(string, array, NULL)
+	/var/www/html/bitrix/modules/main/lib/db/connection.php:260
+#3: Bitrix\Main\DB\Connection->query(string)
+	/var/www/html/bitrix/modules/main/lib/config/option.php:150
+#4: Bitrix\Main\Config\Option::load(string, NULL)
+	/var/www/html/bitrix/modules/main/lib/config/option.php:36
+#5: Bitrix\Main\Config\Option::get(string, string, string)
+	/var/www/html/bitrix/modules/main/lib/httprequest.php:279
+#6: Bitrix\Main\HttpRequest->prepareCookie(array)
+	/var/www/html/bitrix/modules/main/lib/httprequest.php:64
+#7: Bitrix\Main\HttpRequest->__construct(object, array, array, array, array)
+	/var/www/html/bitrix/modules/main/lib/httpapplication.php:43
+#8: Bitrix\Main\HttpApplication->initializeContext(array)
+	/var/www/html/bitrix/modules/main/lib/application.php:122
+#9: Bitrix\Main\Application->initializeExtendedKernel(array)
+	/var/www/html/bitrix/modules/main/include.php:5
+#10: require_once(string)
+	/var/www/html/bitrix/modules/main/include/prolog_before.php:14
+#11: require_once(string)
+	/var/www/html/bitrix/modules/main/include/prolog.php:11
+#12: require_once(string)
+	/var/www/html/bitrix/header.php:1
+#13: require(string)
+	/var/www/html/catalog/index.php:2
+#14: include_once(string)
+	/var/www/html/bitrix/modules/main/include/urlrewrite.php:150
+#15: include_once(string)
+	/var/www/html/bitrix/urlrewrite.php:2
+----------
+2014-12-10 11:26:05 - Host: poisondrop.ru - UNCAUGHT_EXCEPTION - [ErrorException] E_DEPRECATED
+mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead (0)
+/var/www/html/bitrix/modules/main/lib/db/mysqlconnection.php:44
+#0: mysql_connect(string, string, string, boolean)
+	/var/www/html/bitrix/modules/main/lib/db/mysqlconnection.php:44
+#1: Bitrix\Main\DB\MysqlConnection->connectInternal()
+	/var/www/html/bitrix/modules/main/lib/db/mysqlconnection.php:74
+#2: Bitrix\Main\DB\MysqlConnection->queryInternal(string, array, NULL)
+	/var/www/html/bitrix/modules/main/lib/db/connection.php:260
+#3: Bitrix\Main\DB\Connection->query(string)
+	/var/www/html/bitrix/modules/main/lib/config/option.php:150
+#4: Bitrix\Main\Config\Option::load(string, NULL)
+	/var/www/html/bitrix/modules/main/lib/config/option.php:36
+#5: Bitrix\Main\Config\Option::get(string, string, string)
+	/var/www/html/bitrix/modules/main/lib/httprequest.php:279
+#6: Bitrix\Main\HttpRequest->prepareCookie(array)
+	/var/www/html/bitrix/modules/main/lib/httprequest.php:64
+#7: Bitrix\Main\HttpRequest->__construct(object, array, array, array, array)
+	/var/www/html/bitrix/modules/main/lib/httpapplication.php:43
+#8: Bitrix\Main\HttpApplication->initializeContext(array)
+	/var/www/html/bitrix/modules/main/lib/application.php:122
+#9: Bitrix\Main\Application->initializeExtendedKernel(array)
+	/var/www/html/bitrix/modules/main/include.php:5
+#10: require_once(string)
+	/var/www/html/bitrix/modules/main/include/prolog_before.php:14
+#11: require_once(string)
+	/var/www/html/bitrix/modules/main/include/prolog.php:11
+#12: require_once(string)
+	/var/www/html/bitrix/header.php:1
+#13: require(string)
+	/var/www/html/catalog/index.php:2
+#14: include_once(string)
+	/var/www/html/bitrix/modules/main/include/urlrewrite.php:150
+#15: include_once(string)
+	/var/www/html/bitrix/urlrewrite.php:2
+----------
+2014-12-10 11:26:06 - Host: poisondrop.ru - UNCAUGHT_EXCEPTION - [ErrorException] E_DEPRECATED
+mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead (0)
+/var/www/html/bitrix/modules/main/lib/db/mysqlconnection.php:44
+#0: mysql_connect(string, string, string, boolean)
+	/var/www/html/bitrix/modules/main/lib/db/mysqlconnection.php:44
+#1: Bitrix\Main\DB\MysqlConnection->connectInternal()
+	/var/www/html/bitrix/modules/main/lib/db/mysqlconnection.php:74
+#2: Bitrix\Main\DB\MysqlConnection->queryInternal(string, array, NULL)
+	/var/www/html/bitrix/modules/main/lib/db/connection.php:260
+#3: Bitrix\Main\DB\Connection->query(string)
+	/var/www/html/bitrix/modules/main/lib/config/option.php:150
+#4: Bitrix\Main\Config\Option::load(string, NULL)
+	/var/www/html/bitrix/modules/main/lib/config/option.php:36
+#5: Bitrix\Main\Config\Option::get(string, string, string)
+	/var/www/html/bitrix/modules/main/lib/httprequest.php:279
+#6: Bitrix\Main\HttpRequest->prepareCookie(array)
+	/var/www/html/bitrix/modules/main/lib/httprequest.php:64
+#7: Bitrix\Main\HttpRequest->__construct(object, array, array, array, array)
+	/var/www/html/bitrix/modules/main/lib/httpapplication.php:43
+#8: Bitrix\Main\HttpApplication->initializeContext(array)
+	/var/www/html/bitrix/modules/main/lib/application.php:122
+#9: Bitrix\Main\Application->initializeExtendedKernel(array)
+	/var/www/html/bitrix/modules/main/include.php:5
+#10: require_once(string)
+	/var/www/html/bitrix/modules/main/include/prolog_before.php:14
+#11: require_once(string)
+	/var/www/html/bitrix/modules/main/include/prolog.php:11
+#12: require_once(string)
+	/var/www/html/bitrix/header.php:1
+#13: require(string)
+	/var/www/html/catalog/index.php:2
+#14: include_once(string)
+	/var/www/html/bitrix/modules/main/include/urlrewrite.php:150
+#15: include_once(string)
+	/var/www/html/bitrix/urlrewrite.php:2
+----------
+2014-12-10 11:26:28 - Host: poisondrop.ru - UNCAUGHT_EXCEPTION - [ErrorException] E_DEPRECATED
+mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead (0)
+/var/www/html/bitrix/modules/main/lib/db/mysqlconnection.php:44
+#0: mysql_connect(string, string, string, boolean)
+	/var/www/html/bitrix/modules/main/lib/db/mysqlconnection.php:44
+#1: Bitrix\Main\DB\MysqlConnection->connectInternal()
+	/var/www/html/bitrix/modules/main/lib/db/mysqlconnection.php:74
+#2: Bitrix\Main\DB\MysqlConnection->queryInternal(string, array, NULL)
+	/var/www/html/bitrix/modules/main/lib/db/connection.php:260
+#3: Bitrix\Main\DB\Connection->query(string)
+	/var/www/html/bitrix/modules/main/lib/config/option.php:150
+#4: Bitrix\Main\Config\Option::load(string, NULL)
+	/var/www/html/bitrix/modules/main/lib/config/option.php:36
+#5: Bitrix\Main\Config\Option::get(string, string, string)
+	/var/www/html/bitrix/modules/main/lib/httprequest.php:279
+#6: Bitrix\Main\HttpRequest->prepareCookie(array)
+	/var/www/html/bitrix/modules/main/lib/httprequest.php:64
+#7: Bitrix\Main\HttpRequest->__construct(object, array, array, array, array)
+	/var/www/html/bitrix/modules/main/lib/httpapplication.php:43
+#8: Bitrix\Main\HttpApplication->initializeContext(array)
+	/var/www/html/bitrix/modules/main/lib/application.php:122
+#9: Bitrix\Main\Application->initializeExtendedKernel(array)
+	/var/www/html/bitrix/modules/main/include.php:5
+#10: require_once(string)
+	/var/www/html/bitrix/modules/main/include/prolog_before.php:14
+#11: require_once(string)
+	/var/www/html/bitrix/modules/main/include/prolog.php:11
+#12: require_once(string)
+	/var/www/html/bitrix/header.php:1
+#13: require(string)
+	/var/www/html/catalog/index.php:2
+#14: include_once(string)
+	/var/www/html/bitrix/modules/main/include/urlrewrite.php:150
+#15: include_once(string)
+	/var/www/html/bitrix/urlrewrite.php:2
+----------
+2014-12-10 11:26:30 - Host: poisondrop.ru - UNCAUGHT_EXCEPTION - [ErrorException] E_DEPRECATED
+mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead (0)
+/var/www/html/bitrix/modules/main/lib/db/mysqlconnection.php:44
+#0: mysql_connect(string, string, string, boolean)
+	/var/www/html/bitrix/modules/main/lib/db/mysqlconnection.php:44
+#1: Bitrix\Main\DB\MysqlConnection->connectInternal()
+	/var/www/html/bitrix/modules/main/lib/db/mysqlconnection.php:74
+#2: Bitrix\Main\DB\MysqlConnection->queryInternal(string, array, NULL)
+	/var/www/html/bitrix/modules/main/lib/db/connection.php:260
+#3: Bitrix\Main\DB\Connection->query(string)
+	/var/www/html/bitrix/modules/main/lib/config/option.php:150
+#4: Bitrix\Main\Config\Option::load(string, NULL)
+	/var/www/html/bitrix/modules/main/lib/config/option.php:36
+#5: Bitrix\Main\Config\Option::get(string, string, string)
+	/var/www/html/bitrix/modules/main/lib/httprequest.php:279
+#6: Bitrix\Main\HttpRequest->prepareCookie(array)
+	/var/www/html/bitrix/modules/main/lib/httprequest.php:64
+#7: Bitrix\Main\HttpRequest->__construct(object, array, array, array, array)
+	/var/www/html/bitrix/modules/main/lib/httpapplication.php:43
+#8: Bitrix\Main\HttpApplication->initializeContext(array)
+	/var/www/html/bitrix/modules/main/lib/application.php:122
+#9: Bitrix\Main\Application->initializeExtendedKernel(array)
+	/var/www/html/bitrix/modules/main/include.php:5
+#10: require_once(string)
+	/var/www/html/bitrix/modules/main/include/prolog_before.php:14
+#11: require_once(string)
+	/var/www/html/bitrix/modules/main/include/prolog.php:11
+#12: require_once(string)
+	/var/www/html/bitrix/header.php:1
+#13: require(string)
+	/var/www/html/catalog/index.php:2
+#14: include_once(string)
+	/var/www/html/bitrix/modules/main/include/urlrewrite.php:150
+#15: include_once(string)
+	/var/www/html/bitrix/urlrewrite.php:2
+----------
+2014-12-10 11:26:55 - Host: poisondrop.ru - UNCAUGHT_EXCEPTION - [ErrorException] E_DEPRECATED
+mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead (0)
+/var/www/html/bitrix/modules/main/lib/db/mysqlconnection.php:44
+#0: mysql_connect(string, string, string, boolean)
+	/var/www/html/bitrix/modules/main/lib/db/mysqlconnection.php:44
+#1: Bitrix\Main\DB\MysqlConnection->connectInternal()
+	/var/www/html/bitrix/modules/main/lib/db/mysqlconnection.php:74
+#2: Bitrix\Main\DB\MysqlConnection->queryInternal(string, array, NULL)
+	/var/www/html/bitrix/modules/main/lib/db/connection.php:260
+#3: Bitrix\Main\DB\Connection->query(string)
+	/var/www/html/bitrix/modules/main/lib/config/option.php:150
+#4: Bitrix\Main\Config\Option::load(string, NULL)
+	/var/www/html/bitrix/modules/main/lib/config/option.php:36
+#5: Bitrix\Main\Config\Option::get(string, string, string)
+	/var/www/html/bitrix/modules/main/lib/httprequest.php:279
+#6: Bitrix\Main\HttpRequest->prepareCookie(array)
+	/var/www/html/bitrix/modules/main/lib/httprequest.php:64
+#7: Bitrix\Main\HttpRequest->__construct(object, array, array, array, array)
+	/var/www/html/bitrix/modules/main/lib/httpapplication.php:43
+#8: Bitrix\Main\HttpApplication->initializeContext(array)
+	/var/www/html/bitrix/modules/main/lib/application.php:122
+#9: Bitrix\Main\Application->initializeExtendedKernel(array)
+	/var/www/html/bitrix/modules/main/include.php:5
+#10: require_once(string)
+	/var/www/html/bitrix/modules/main/include/prolog_before.php:14
+#11: require_once(string)
+	/var/www/html/bitrix/modules/main/include/prolog.php:11
+#12: require_once(string)
+	/var/www/html/bitrix/header.php:1
+#13: require(string)
+	/var/www/html/catalog/index.php:2
+#14: include_once(string)
+	/var/www/html/bitrix/modules/main/include/urlrewrite.php:150
+#15: include_once(string)
+	/var/www/html/bitrix/urlrewrite.php:2
+----------
+2014-12-10 11:26:57 - Host: www.poisondrop.ru - UNCAUGHT_EXCEPTION - [ErrorException] E_DEPRECATED
+mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead (0)
+/var/www/html/bitrix/modules/main/lib/db/mysqlconnection.php:44
+#0: mysql_connect(string, string, string, boolean)
+	/var/www/html/bitrix/modules/main/lib/db/mysqlconnection.php:44
+#1: Bitrix\Main\DB\MysqlConnection->connectInternal()
+	/var/www/html/bitrix/modules/main/lib/db/mysqlconnection.php:74
+#2: Bitrix\Main\DB\MysqlConnection->queryInternal(string, array, NULL)
+	/var/www/html/bitrix/modules/main/lib/db/connection.php:260
+#3: Bitrix\Main\DB\Connection->query(string)
+	/var/www/html/bitrix/modules/main/lib/config/option.php:150
+#4: Bitrix\Main\Config\Option::load(string, NULL)
+	/var/www/html/bitrix/modules/main/lib/config/option.php:36
+#5: Bitrix\Main\Config\Option::get(string, string, string)
+	/var/www/html/bitrix/modules/main/lib/httprequest.php:279
+#6: Bitrix\Main\HttpRequest->prepareCookie(array)
+	/var/www/html/bitrix/modules/main/lib/httprequest.php:64
+#7: Bitrix\Main\HttpRequest->__construct(object, array, array, array, array)
+	/var/www/html/bitrix/modules/main/lib/httpapplication.php:43
+#8: Bitrix\Main\HttpApplication->initializeContext(array)
+	/var/www/html/bitrix/modules/main/lib/application.php:122
+#9: Bitrix\Main\Application->initializeExtendedKernel(array)
+	/var/www/html/bitrix/modules/main/include.php:5
+#10: require_once(string)
+	/var/www/html/bitrix/modules/main/include/prolog_before.php:14
+#11: require_once(string)
+	/var/www/html/bitrix/modules/main/include/prolog.php:11
+#12: require_once(string)
+	/var/www/html/bitrix/header.php:1
+#13: require(string)
+	/var/www/html/index.php:2
+----------
+2014-12-10 11:27:01 - Host:  - UNCAUGHT_EXCEPTION - [ErrorException] E_DEPRECATED
+mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead (0)
+/var/www/html/bitrix/modules/main/lib/db/mysqlconnection.php:44
+#0: mysql_connect(string, string, string, boolean)
+	/var/www/html/bitrix/modules/main/lib/db/mysqlconnection.php:44
+#1: Bitrix\Main\DB\MysqlConnection->connectInternal()
+	/var/www/html/bitrix/modules/main/lib/db/mysqlconnection.php:74
+#2: Bitrix\Main\DB\MysqlConnection->queryInternal(string, array, NULL)
+	/var/www/html/bitrix/modules/main/lib/db/connection.php:260
+#3: Bitrix\Main\DB\Connection->query(string)
+	/var/www/html/bitrix/modules/main/lib/config/option.php:150
+#4: Bitrix\Main\Config\Option::load(string, NULL)
+	/var/www/html/bitrix/modules/main/lib/config/option.php:36
+#5: Bitrix\Main\Config\Option::get(string, string, string)
+	/var/www/html/bitrix/modules/main/lib/httprequest.php:279
+#6: Bitrix\Main\HttpRequest->prepareCookie(array)
+	/var/www/html/bitrix/modules/main/lib/httprequest.php:64
+#7: Bitrix\Main\HttpRequest->__construct(object, array, array, array, array)
+	/var/www/html/bitrix/modules/main/lib/httpapplication.php:43
+#8: Bitrix\Main\HttpApplication->initializeContext(array)
+	/var/www/html/bitrix/modules/main/lib/application.php:122
+#9: Bitrix\Main\Application->initializeExtendedKernel(array)
+	/var/www/html/bitrix/modules/main/include.php:5
+#10: require_once(string)
+	/var/www/html/bitrix/modules/main/include/prolog_before.php:14
+#11: require(string)
+	/var/www/html/bitrix/modules/main/tools/cron_events.php:13
+----------
+2014-12-10 11:27:11 - Host: poisondrop.ru - UNCAUGHT_EXCEPTION - [ErrorException] E_DEPRECATED
+mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead (0)
+/var/www/html/bitrix/modules/main/lib/db/mysqlconnection.php:44
+#0: mysql_connect(string, string, string, boolean)
+	/var/www/html/bitrix/modules/main/lib/db/mysqlconnection.php:44
+#1: Bitrix\Main\DB\MysqlConnection->connectInternal()
+	/var/www/html/bitrix/modules/main/lib/db/mysqlconnection.php:74
+#2: Bitrix\Main\DB\MysqlConnection->queryInternal(string, array, NULL)
+	/var/www/html/bitrix/modules/main/lib/db/connection.php:260
+#3: Bitrix\Main\DB\Connection->query(string)
+	/var/www/html/bitrix/modules/main/lib/config/option.php:150
+#4: Bitrix\Main\Config\Option::load(string, NULL)
+	/var/www/html/bitrix/modules/main/lib/config/option.php:36
+#5: Bitrix\Main\Config\Option::get(string, string, string)
+	/var/www/html/bitrix/modules/main/lib/httprequest.php:279
+#6: Bitrix\Main\HttpRequest->prepareCookie(array)
+	/var/www/html/bitrix/modules/main/lib/httprequest.php:64
+#7: Bitrix\Main\HttpRequest->__construct(object, array, array, array, array)
+	/var/www/html/bitrix/modules/main/lib/httpapplication.php:43
+#8: Bitrix\Main\HttpApplication->initializeContext(array)
+	/var/www/html/bitrix/modules/main/lib/application.php:122
+#9: Bitrix\Main\Application->initializeExtendedKernel(array)
+	/var/www/html/bitrix/modules/main/include.php:5
+#10: require_once(string)
+	/var/www/html/bitrix/modules/main/include/prolog_before.php:14
+#11: require_once(string)
+	/var/www/html/bitrix/modules/main/include/prolog.php:11
+#12: require_once(string)
+	/var/www/html/bitrix/header.php:1
+#13: require(string)
+	/var/www/html/catalog/index.php:2
+#14: include_once(string)
+	/var/www/html/bitrix/modules/main/include/urlrewrite.php:150
+#15: include_once(string)
+	/var/www/html/bitrix/urlrewrite.php:2
+----------
+2014-12-10 11:27:15 - Host: poisondrop.ru - UNCAUGHT_EXCEPTION - [ErrorException] E_DEPRECATED
+mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead (0)
+/var/www/html/bitrix/modules/main/lib/db/mysqlconnection.php:44
+#0: mysql_connect(string, string, string, boolean)
+	/var/www/html/bitrix/modules/main/lib/db/mysqlconnection.php:44
+#1: Bitrix\Main\DB\MysqlConnection->connectInternal()
+	/var/www/html/bitrix/modules/main/lib/db/mysqlconnection.php:74
+#2: Bitrix\Main\DB\MysqlConnection->queryInternal(string, array, NULL)
+	/var/www/html/bitrix/modules/main/lib/db/connection.php:260
+#3: Bitrix\Main\DB\Connection->query(string)
+	/var/www/html/bitrix/modules/main/lib/config/option.php:150
+#4: Bitrix\Main\Config\Option::load(string, NULL)
+	/var/www/html/bitrix/modules/main/lib/config/option.php:36
+#5: Bitrix\Main\Config\Option::get(string, string, string)
+	/var/www/html/bitrix/modules/main/lib/httprequest.php:279
+#6: Bitrix\Main\HttpRequest->prepareCookie(array)
+	/var/www/html/bitrix/modules/main/lib/httprequest.php:64
+#7: Bitrix\Main\HttpRequest->__construct(object, array, array, array, array)
+	/var/www/html/bitrix/modules/main/lib/httpapplication.php:43
+#8: Bitrix\Main\HttpApplication->initializeContext(array)
+	/var/www/html/bitrix/modules/main/lib/application.php:122
+#9: Bitrix\Main\Application->initializeExtendedKernel(array)
+	/var/www/html/bitrix/modules/main/include.php:5
+#10: require_once(string)
+	/var/www/html/bitrix/modules/main/include/prolog_before.php:14
+#11: require_once(string)
+	/var/www/html/bitrix/modules/main/include/prolog.php:11
+#12: require_once(string)
+	/var/www/html/bitrix/header.php:1
+#13: require(string)
+	/var/www/html/designers/index.php:2
+----------
+2014-12-10 11:27:17 - Host: poisondrop.ru - UNCAUGHT_EXCEPTION - [ErrorException] E_DEPRECATED
+mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead (0)
+/var/www/html/bitrix/modules/main/lib/db/mysqlconnection.php:44
+#0: mysql_connect(string, string, string, boolean)
+	/var/www/html/bitrix/modules/main/lib/db/mysqlconnection.php:44
+#1: Bitrix\Main\DB\MysqlConnection->connectInternal()
+	/var/www/html/bitrix/modules/main/lib/db/mysqlconnection.php:74
+#2: Bitrix\Main\DB\MysqlConnection->queryInternal(string, array, NULL)
+	/var/www/html/bitrix/modules/main/lib/db/connection.php:260
+#3: Bitrix\Main\DB\Connection->query(string)
+	/var/www/html/bitrix/modules/main/lib/config/option.php:150
+#4: Bitrix\Main\Config\Option::load(string, NULL)
+	/var/www/html/bitrix/modules/main/lib/config/option.php:36
+#5: Bitrix\Main\Config\Option::get(string, string, string)
+	/var/www/html/bitrix/modules/main/lib/httprequest.php:279
+#6: Bitrix\Main\HttpRequest->prepareCookie(array)
+	/var/www/html/bitrix/modules/main/lib/httprequest.php:64
+#7: Bitrix\Main\HttpRequest->__construct(object, array, array, array, array)
+	/var/www/html/bitrix/modules/main/lib/httpapplication.php:43
+#8: Bitrix\Main\HttpApplication->initializeContext(array)
+	/var/www/html/bitrix/modules/main/lib/application.php:122
+#9: Bitrix\Main\Application->initializeExtendedKernel(array)
+	/var/www/html/bitrix/modules/main/include.php:5
+#10: require_once(string)
+	/var/www/html/bitrix/modules/main/include/prolog_before.php:14
+#11: require_once(string)
+	/var/www/html/bitrix/modules/main/include/prolog.php:11
+#12: require_once(string)
+	/var/www/html/bitrix/header.php:1
+#13: require(string)
+	/var/www/html/designers/index.php:2
+----------
+2014-12-10 11:27:26 - Host: poisondrop.ru - UNCAUGHT_EXCEPTION - [ErrorException] E_DEPRECATED
+mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead (0)
+/var/www/html/bitrix/modules/main/lib/db/mysqlconnection.php:44
+#0: mysql_connect(string, string, string, boolean)
+	/var/www/html/bitrix/modules/main/lib/db/mysqlconnection.php:44
+#1: Bitrix\Main\DB\MysqlConnection->connectInternal()
+	/var/www/html/bitrix/modules/main/lib/db/mysqlconnection.php:74
+#2: Bitrix\Main\DB\MysqlConnection->queryInternal(string, array, NULL)
+	/var/www/html/bitrix/modules/main/lib/db/connection.php:260
+#3: Bitrix\Main\DB\Connection->query(string)
+	/var/www/html/bitrix/modules/main/lib/config/option.php:150
+#4: Bitrix\Main\Config\Option::load(string, NULL)
+	/var/www/html/bitrix/modules/main/lib/config/option.php:36
+#5: Bitrix\Main\Config\Option::get(string, string, string)
+	/var/www/html/bitrix/modules/main/lib/httprequest.php:279
+#6: Bitrix\Main\HttpRequest->prepareCookie(array)
+	/var/www/html/bitrix/modules/main/lib/httprequest.php:64
+#7: Bitrix\Main\HttpRequest->__construct(object, array, array, array, array)
+	/var/www/html/bitrix/modules/main/lib/httpapplication.php:43
+#8: Bitrix\Main\HttpApplication->initializeContext(array)
+	/var/www/html/bitrix/modules/main/lib/application.php:122
+#9: Bitrix\Main\Application->initializeExtendedKernel(array)
+	/var/www/html/bitrix/modules/main/include.php:5
+#10: require_once(string)
+	/var/www/html/bitrix/modules/main/include/prolog_before.php:14
+#11: require_once(string)
+	/var/www/html/bitrix/modules/main/include/prolog.php:11
+#12: require_once(string)
+	/var/www/html/bitrix/header.php:1
+#13: require(string)
+	/var/www/html/index.php:2
+----------
+2014-12-10 11:27:29 - Host: poisondrop.ru - UNCAUGHT_EXCEPTION - [ErrorException] E_DEPRECATED
+mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead (0)
+/var/www/html/bitrix/modules/main/lib/db/mysqlconnection.php:44
+#0: mysql_connect(string, string, string, boolean)
+	/var/www/html/bitrix/modules/main/lib/db/mysqlconnection.php:44
+#1: Bitrix\Main\DB\MysqlConnection->connectInternal()
+	/var/www/html/bitrix/modules/main/lib/db/mysqlconnection.php:74
+#2: Bitrix\Main\DB\MysqlConnection->queryInternal(string, array, NULL)
+	/var/www/html/bitrix/modules/main/lib/db/connection.php:260
+#3: Bitrix\Main\DB\Connection->query(string)
+	/var/www/html/bitrix/modules/main/lib/config/option.php:150
+#4: Bitrix\Main\Config\Option::load(string, NULL)
+	/var/www/html/bitrix/modules/main/lib/config/option.php:36
+#5: Bitrix\Main\Config\Option::get(string, string, string)
+	/var/www/html/bitrix/modules/main/lib/httprequest.php:279
+#6: Bitrix\Main\HttpRequest->prepareCookie(array)
+	/var/www/html/bitrix/modules/main/lib/httprequest.php:64
+#7: Bitrix\Main\HttpRequest->__construct(object, array, array, array, array)
+	/var/www/html/bitrix/modules/main/lib/httpapplication.php:43
+#8: Bitrix\Main\HttpApplication->initializeContext(array)
+	/var/www/html/bitrix/modules/main/lib/application.php:122
+#9: Bitrix\Main\Application->initializeExtendedKernel(array)
+	/var/www/html/bitrix/modules/main/include.php:5
+#10: require_once(string)
+	/var/www/html/bitrix/modules/main/include/prolog_before.php:14
+#11: require_once(string)
+	/var/www/html/bitrix/modules/main/include/prolog.php:11
+#12: require_once(string)
+	/var/www/html/bitrix/header.php:1
+#13: require(string)
+	/var/www/html/index.php:2
+----------
+2014-12-10 11:27:35 - Host: poisondrop.ru - UNCAUGHT_EXCEPTION - [ErrorException] E_DEPRECATED
+mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead (0)
+/var/www/html/bitrix/modules/main/lib/db/mysqlconnection.php:44
+#0: mysql_connect(string, string, string, boolean)
+	/var/www/html/bitrix/modules/main/lib/db/mysqlconnection.php:44
+#1: Bitrix\Main\DB\MysqlConnection->connectInternal()
+	/var/www/html/bitrix/modules/main/lib/db/mysqlconnection.php:74
+#2: Bitrix\Main\DB\MysqlConnection->queryInternal(string, array, NULL)
+	/var/www/html/bitrix/modules/main/lib/db/connection.php:260
+#3: Bitrix\Main\DB\Connection->query(string)
+	/var/www/html/bitrix/modules/main/lib/config/option.php:150
+#4: Bitrix\Main\Config\Option::load(string, NULL)
+	/var/www/html/bitrix/modules/main/lib/config/option.php:36
+#5: Bitrix\Main\Config\Option::get(string, string, string)
+	/var/www/html/bitrix/modules/main/lib/httprequest.php:279
+#6: Bitrix\Main\HttpRequest->prepareCookie(array)
+	/var/www/html/bitrix/modules/main/lib/httprequest.php:64
+#7: Bitrix\Main\HttpRequest->__construct(object, array, array, array, array)
+	/var/www/html/bitrix/modules/main/lib/httpapplication.php:43
+#8: Bitrix\Main\HttpApplication->initializeContext(array)
+	/var/www/html/bitrix/modules/main/lib/application.php:122
+#9: Bitrix\Main\Application->initializeExtendedKernel(array)
+	/var/www/html/bitrix/modules/main/include.php:5
+#10: require_once(string)
+	/var/www/html/bitrix/modules/main/include/prolog_before.php:14
+#11: require_once(string)
+	/var/www/html/bitrix/modules/main/include/prolog.php:11
+#12: require_once(string)
+	/var/www/html/bitrix/header.php:1
+#13: require(string)
+	/var/www/html/index.php:2
+----------
+2014-12-10 11:27:51 - Host: poisondrop.ru - UNCAUGHT_EXCEPTION - [ErrorException] E_DEPRECATED
+mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead (0)
+/var/www/html/bitrix/modules/main/lib/db/mysqlconnection.php:44
+#0: mysql_connect(string, string, string, boolean)
+	/var/www/html/bitrix/modules/main/lib/db/mysqlconnection.php:44
+#1: Bitrix\Main\DB\MysqlConnection->connectInternal()
+	/var/www/html/bitrix/modules/main/lib/db/mysqlconnection.php:74
+#2: Bitrix\Main\DB\MysqlConnection->queryInternal(string, array, NULL)
+	/var/www/html/bitrix/modules/main/lib/db/connection.php:260
+#3: Bitrix\Main\DB\Connection->query(string)
+	/var/www/html/bitrix/modules/main/lib/config/option.php:150
+#4: Bitrix\Main\Config\Option::load(string, NULL)
+	/var/www/html/bitrix/modules/main/lib/config/option.php:36
+#5: Bitrix\Main\Config\Option::get(string, string, string)
+	/var/www/html/bitrix/modules/main/lib/httprequest.php:279
+#6: Bitrix\Main\HttpRequest->prepareCookie(array)
+	/var/www/html/bitrix/modules/main/lib/httprequest.php:64
+#7: Bitrix\Main\HttpRequest->__construct(object, array, array, array, array)
+	/var/www/html/bitrix/modules/main/lib/httpapplication.php:43
+#8: Bitrix\Main\HttpApplication->initializeContext(array)
+	/var/www/html/bitrix/modules/main/lib/application.php:122
+#9: Bitrix\Main\Application->initializeExtendedKernel(array)
+	/var/www/html/bitrix/modules/main/include.php:5
+#10: require_once(string)
+	/var/www/html/bitrix/modules/main/include/prolog_before.php:14
+#11: require_once(string)
+	/var/www/html/bitrix/modules/main/include/prolog.php:11
+#12: require_once(string)
+	/var/www/html/bitrix/header.php:1
+#13: require(string)
+	/var/www/html/catalog/index.php:2
+#14: include_once(string)
+	/var/www/html/bitrix/modules/main/include/urlrewrite.php:150
+#15: include_once(string)
+	/var/www/html/bitrix/urlrewrite.php:2
+----------
+2014-12-10 11:27:54 - Host: poisondrop.ru - UNCAUGHT_EXCEPTION - [ErrorException] E_DEPRECATED
+mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead (0)
+/var/www/html/bitrix/modules/main/lib/db/mysqlconnection.php:44
+#0: mysql_connect(string, string, string, boolean)
+	/var/www/html/bitrix/modules/main/lib/db/mysqlconnection.php:44
+#1: Bitrix\Main\DB\MysqlConnection->connectInternal()
+	/var/www/html/bitrix/modules/main/lib/db/mysqlconnection.php:74
+#2: Bitrix\Main\DB\MysqlConnection->queryInternal(string, array, NULL)
+	/var/www/html/bitrix/modules/main/lib/db/connection.php:260
+#3: Bitrix\Main\DB\Connection->query(string)
+	/var/www/html/bitrix/modules/main/lib/config/option.php:150
+#4: Bitrix\Main\Config\Option::load(string, NULL)
+	/var/www/html/bitrix/modules/main/lib/config/option.php:36
+#5: Bitrix\Main\Config\Option::get(string, string, string)
+	/var/www/html/bitrix/modules/main/lib/httprequest.php:279
+#6: Bitrix\Main\HttpRequest->prepareCookie(array)
+	/var/www/html/bitrix/modules/main/lib/httprequest.php:64
+#7: Bitrix\Main\HttpRequest->__construct(object, array, array, array, array)
+	/var/www/html/bitrix/modules/main/lib/httpapplication.php:43
+#8: Bitrix\Main\HttpApplication->initializeContext(array)
+	/var/www/html/bitrix/modules/main/lib/application.php:122
+#9: Bitrix\Main\Application->initializeExtendedKernel(array)
+	/var/www/html/bitrix/modules/main/include.php:5
+#10: require_once(string)
+	/var/www/html/bitrix/modules/main/include/prolog_before.php:14
+#11: require_once(string)
+	/var/www/html/bitrix/modules/main/include/prolog.php:11
+#12: require_once(string)
+	/var/www/html/bitrix/header.php:1
+#13: require(string)
+	/var/www/html/catalog/index.php:2
+#14: include_once(string)
+	/var/www/html/bitrix/modules/main/include/urlrewrite.php:150
+#15: include_once(string)
+	/var/www/html/bitrix/urlrewrite.php:2
+----------
+2014-12-10 11:27:55 - Host: poisondrop.ru - UNCAUGHT_EXCEPTION - [ErrorException] E_DEPRECATED
+mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead (0)
+/var/www/html/bitrix/modules/main/lib/db/mysqlconnection.php:44
+#0: mysql_connect(string, string, string, boolean)
+	/var/www/html/bitrix/modules/main/lib/db/mysqlconnection.php:44
+#1: Bitrix\Main\DB\MysqlConnection->connectInternal()
+	/var/www/html/bitrix/modules/main/lib/db/mysqlconnection.php:74
+#2: Bitrix\Main\DB\MysqlConnection->queryInternal(string, array, NULL)
+	/var/www/html/bitrix/modules/main/lib/db/connection.php:260
+#3: Bitrix\Main\DB\Connection->query(string)
+	/var/www/html/bitrix/modules/main/lib/config/option.php:150
+#4: Bitrix\Main\Config\Option::load(string, NULL)
+	/var/www/html/bitrix/modules/main/lib/config/option.php:36
+#5: Bitrix\Main\Config\Option::get(string, string, string)
+	/var/www/html/bitrix/modules/main/lib/httprequest.php:279
+#6: Bitrix\Main\HttpRequest->prepareCookie(array)
+	/var/www/html/bitrix/modules/main/lib/httprequest.php:64
+#7: Bitrix\Main\HttpRequest->__construct(object, array, array, array, array)
+	/var/www/html/bitrix/modules/main/lib/httpapplication.php:43
+#8: Bitrix\Main\HttpApplication->initializeContext(array)
+	/var/www/html/bitrix/modules/main/lib/application.php:122
+#9: Bitrix\Main\Application->initializeExtendedKernel(array)
+	/var/www/html/bitrix/modules/main/include.php:5
+#10: require_once(string)
+	/var/www/html/bitrix/modules/main/include/prolog_before.php:14
+#11: require_once(string)
+	/var/www/html/bitrix/modules/main/include/prolog.php:11
+#12: require_once(string)
+	/var/www/html/bitrix/header.php:1
+#13: require(string)
+	/var/www/html/index.php:2
+----------
+2014-12-10 11:27:56 - Host: poisondrop.ru - UNCAUGHT_EXCEPTION - [ErrorException] E_DEPRECATED
+mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead (0)
+/var/www/html/bitrix/modules/main/lib/db/mysqlconnection.php:44
+#0: mysql_connect(string, string, string, boolean)
+	/var/www/html/bitrix/modules/main/lib/db/mysqlconnection.php:44
+#1: Bitrix\Main\DB\MysqlConnection->connectInternal()
+	/var/www/html/bitrix/modules/main/lib/db/mysqlconnection.php:74
+#2: Bitrix\Main\DB\MysqlConnection->queryInternal(string, array, NULL)
+	/var/www/html/bitrix/modules/main/lib/db/connection.php:260
+#3: Bitrix\Main\DB\Connection->query(string)
+	/var/www/html/bitrix/modules/main/lib/config/option.php:150
+#4: Bitrix\Main\Config\Option::load(string, NULL)
+	/var/www/html/bitrix/modules/main/lib/config/option.php:36
+#5: Bitrix\Main\Config\Option::get(string, string, string)
+	/var/www/html/bitrix/modules/main/lib/httprequest.php:279
+#6: Bitrix\Main\HttpRequest->prepareCookie(array)
+	/var/www/html/bitrix/modules/main/lib/httprequest.php:64
+#7: Bitrix\Main\HttpRequest->__construct(object, array, array, array, array)
+	/var/www/html/bitrix/modules/main/lib/httpapplication.php:43
+#8: Bitrix\Main\HttpApplication->initializeContext(array)
+	/var/www/html/bitrix/modules/main/lib/application.php:122
+#9: Bitrix\Main\Application->initializeExtendedKernel(array)
+	/var/www/html/bitrix/modules/main/include.php:5
+#10: require_once(string)
+	/var/www/html/bitrix/modules/main/include/prolog_before.php:14
+#11: require_once(string)
+	/var/www/html/bitrix/modules/main/include/prolog.php:11
+#12: require_once(string)
+	/var/www/html/bitrix/header.php:1
+#13: require(string)
+	/var/www/html/index.php:2
+----------
+2014-12-10 11:28:01 - Host:  - UNCAUGHT_EXCEPTION - [ErrorException] E_DEPRECATED
+mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead (0)
+/var/www/html/bitrix/modules/main/lib/db/mysqlconnection.php:44
+#0: mysql_connect(string, string, string, boolean)
+	/var/www/html/bitrix/modules/main/lib/db/mysqlconnection.php:44
+#1: Bitrix\Main\DB\MysqlConnection->connectInternal()
+	/var/www/html/bitrix/modules/main/lib/db/mysqlconnection.php:74
+#2: Bitrix\Main\DB\MysqlConnection->queryInternal(string, array, NULL)
+	/var/www/html/bitrix/modules/main/lib/db/connection.php:260
+#3: Bitrix\Main\DB\Connection->query(string)
+	/var/www/html/bitrix/modules/main/lib/config/option.php:150
+#4: Bitrix\Main\Config\Option::load(string, NULL)
+	/var/www/html/bitrix/modules/main/lib/config/option.php:36
+#5: Bitrix\Main\Config\Option::get(string, string, string)
+	/var/www/html/bitrix/modules/main/lib/httprequest.php:279
+#6: Bitrix\Main\HttpRequest->prepareCookie(array)
+	/var/www/html/bitrix/modules/main/lib/httprequest.php:64
+#7: Bitrix\Main\HttpRequest->__construct(object, array, array, array, array)
+	/var/www/html/bitrix/modules/main/lib/httpapplication.php:43
+#8: Bitrix\Main\HttpApplication->initializeContext(array)
+	/var/www/html/bitrix/modules/main/lib/application.php:122
+#9: Bitrix\Main\Application->initializeExtendedKernel(array)
+	/var/www/html/bitrix/modules/main/include.php:5
+#10: require_once(string)
+	/var/www/html/bitrix/modules/main/include/prolog_before.php:14
+#11: require(string)
+	/var/www/html/bitrix/modules/main/tools/cron_events.php:13
+----------

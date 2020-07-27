@@ -1,0 +1,142 @@
+2012-May-22 11:28:47 Наличие необходимых модулей php (check_php_modules): Ok
+Успешно
+2012-May-22 11:28:48 Обязательные параметры PHP (check_php_settings): Fail
+Значение max_input_vars должно быть не ниже 3000. Текущее значение: 1000
+
+2012-May-22 11:28:48 Значения переменных сервера (check_server_vars): Ok
+Успешно
+2012-May-22 11:28:48 Модуль suhosin отключен (check_suhosin): Ok
+Успешно
+2012-May-22 11:28:49 Модули веб сервера (check_security): Ok
+Успешно
+2012-May-22 11:28:49 Служебные скрипты в корне сайта (check_install_scripts): Ok
+Успешно
+2012-May-22 11:28:49 Параметры настройки UTF (mbstring и константа BX_UTF) (check_mbstring): Ok
+Успешно. Сайт работает в UTF кодировке
+2012-May-22 11:28:49 Установка параметра pcre.backtrack_limit (check_backtrack_limit): Ok
+Успешно
+2012-May-22 11:28:50 Размер стека и pcre.recursion_limit (check_pcre_recursion): Fail
+Socket error [0]: php_network_getaddresses: getaddrinfo failed: Name or service not known
+2012-May-22 11:28:50 Вызов method_exists на строке (check_method_exists): Fail
+Socket error [0]: php_network_getaddresses: getaddrinfo failed: Name or service not known
+2012-May-22 11:28:50 Настройки сайтов (check_sites): Ok
+Успешно
+2012-May-22 11:28:51 Работа с сокетами (check_socket): Fail
+Connection to poisondrop.ru:80
+Socket error [0]: php_network_getaddresses: getaddrinfo failed: Name or service not known
+2012-May-22 11:28:51 Лишний вывод в файлах конфигурации (check_dbconn): Warning
+Не удалось проверить из-за ошибки в работе с сокетами
+2012-May-22 11:28:51 Загрузка файла (check_upload): Warning
+Не удалось проверить из-за ошибки в работе с сокетами
+2012-May-22 11:28:52 Загрузка файла больше 4Мб (check_upload_big): Warning
+Не удалось проверить из-за ошибки в работе с сокетами
+2012-May-22 11:28:52 Загрузка файла через php://input (check_upload_raw): Warning
+Не удалось проверить из-за ошибки в работе с сокетами
+2012-May-22 11:28:52 Передача POST запроса с большим числом параметров (check_post): Warning
+Не удалось проверить из-за ошибки в работе с сокетами
+2012-May-22 11:28:53 Отправка почты (check_mail): Ok
+Успешно
+2012-May-22 11:28:53 Отправка почтового сообщения больше 64Кб (check_mail_big): Ok
+Успешно
+2012-May-22 11:28:53 Проверка на наличие неотправленных сообщений (check_mail_b_event): Ok
+Успешно
+2012-May-22 11:28:54 Внутреннее перенаправление (функция LocalRedirect) (check_localredirect): Warning
+Не удалось проверить из-за ошибки в работе с сокетами
+2012-May-22 11:28:54 Фактическое ограничение памяти (check_memory_limit): Warning
+Не удалось проверить из-за ошибки в работе с сокетами
+2012-May-22 11:28:54 Сохранение сессии (check_session): Ok
+50% done
+2012-May-22 11:28:54 Сохранение сессии (check_session): Ok
+Успешно
+2012-May-22 11:28:55 Сохранение сессии без UserAgent (check_session_ua): Warning
+Не удалось проверить из-за ошибки в работе с сокетами
+2012-May-22 11:28:55 Работа с файлами кеша (check_cache): Ok
+Успешно
+2012-May-22 11:28:56 Доступ к серверу обновлений (check_update): Ok
+Успешно
+2012-May-22 11:28:56 HTTP авторизация (check_http_auth): Warning
+Не удалось проверить из-за ошибки в работе с сокетами
+2012-May-22 11:28:56 Создание и запуск файла (check_exec): Warning
+Не удалось проверить из-за ошибки в работе с сокетами
+2012-May-22 11:28:56 Константа BX_CRONTAB (не должна быть определена) (check_bx_crontab): Ok
+Успешно
+2012-May-22 11:28:57 Разделитель дробной части (check_divider): Ok
+Успешно
+2012-May-22 11:28:57 Значение параметра precision (не менее 10) (check_precision): Ok
+Успешно
+2012-May-22 11:28:57 Передача объектов по ссылке (check_clone): Ok
+Успешно
+2012-May-22 11:28:57 Функция getimagesize для swf (check_getimagesize): Ok
+Успешно
+2012-May-22 11:28:58 Версия MySQL сервера (check_mysql_bug_version): Ok
+Успешно
+2012-May-22 11:28:59 Время на БД и веб сервере (check_mysql_time): Ok
+Успешно
+2012-May-22 11:28:59 Режим работы MySQL (check_mysql_mode): Ok
+Успешно
+2012-May-22 11:28:59 Значение auto_increment в MySQL (check_mysql_increment): Ok
+Успешно
+2012-May-22 11:29:00 Кодировка соединения (check_mysql_connection_charset): Ok
+character_set_connection=utf8, collation_connection=utf8_unicode_ci, character_set_results=utf8
+Успешно
+2012-May-22 11:29:00 Кодировка базы данных (check_mysql_db_charset): Ok
+CHARSET=utf8, COLLATION=utf8_unicode_ci
+Успешно
+2012-May-22 11:29:01 Кодировки таблиц в БД (check_mysql_table_charset): Ok
+Успешно
+2012-May-22 11:29:02 Структура базы данных (check_mysql_table_structure): Ok
+0% done
+2012-May-22 11:29:03 Структура базы данных (check_mysql_table_structure): Ok
+3% done
+2012-May-22 11:29:03 Структура базы данных (check_mysql_table_structure): Ok
+7% done
+2012-May-22 11:29:04 Структура базы данных (check_mysql_table_structure): Ok
+11% done
+2012-May-22 11:29:04 Структура базы данных (check_mysql_table_structure): Ok
+14% done
+2012-May-22 11:29:05 Структура базы данных (check_mysql_table_structure): Ok
+18% done
+2012-May-22 11:29:05 Структура базы данных (check_mysql_table_structure): Ok
+22% done
+2012-May-22 11:29:06 Структура базы данных (check_mysql_table_structure): Ok
+25% done
+2012-May-22 11:29:06 Структура базы данных (check_mysql_table_structure): Ok
+29% done
+2012-May-22 11:29:07 Структура базы данных (check_mysql_table_structure): Ok
+33% done
+2012-May-22 11:29:07 Структура базы данных (check_mysql_table_structure): Ok
+37% done
+2012-May-22 11:29:08 Структура базы данных (check_mysql_table_structure): Ok
+40% done
+2012-May-22 11:29:08 Структура базы данных (check_mysql_table_structure): Ok
+44% done
+2012-May-22 11:29:08 Структура базы данных (check_mysql_table_structure): Ok
+48% done
+2012-May-22 11:29:09 Структура базы данных (check_mysql_table_structure): Ok
+51% done
+2012-May-22 11:29:09 Структура базы данных (check_mysql_table_structure): Ok
+55% done
+2012-May-22 11:29:10 Структура базы данных (check_mysql_table_structure): Ok
+59% done
+2012-May-22 11:29:10 Структура базы данных (check_mysql_table_structure): Ok
+62% done
+2012-May-22 11:29:10 Структура базы данных (check_mysql_table_structure): Ok
+66% done
+2012-May-22 11:29:10 Структура базы данных (check_mysql_table_structure): Ok
+70% done
+2012-May-22 11:29:11 Структура базы данных (check_mysql_table_structure): Ok
+74% done
+2012-May-22 11:29:11 Структура базы данных (check_mysql_table_structure): Ok
+77% done
+2012-May-22 11:29:12 Структура базы данных (check_mysql_table_structure): Ok
+81% done
+2012-May-22 11:29:13 Структура базы данных (check_mysql_table_structure): Ok
+85% done
+2012-May-22 11:29:13 Структура базы данных (check_mysql_table_structure): Ok
+88% done
+2012-May-22 11:29:13 Структура базы данных (check_mysql_table_structure): Ok
+92% done
+2012-May-22 11:29:14 Структура базы данных (check_mysql_table_structure): Ok
+96% done
+2012-May-22 11:29:14 Структура базы данных (check_mysql_table_structure): Ok
+Успешно

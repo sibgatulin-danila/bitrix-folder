@@ -1,0 +1,238 @@
+Date:Fri, 22 Jun 2018 00:53:48 +0300
+Array
+(
+    [0] => Start
+    [1] => Step DiscountCatalogMigratorrun
+    [2] => 
+)
+
+
+Date:Fri, 22 Jun 2018 00:53:48 +0300
+Array
+(
+    [0] => Start
+    [1] => Step DiscountCatalogMigratormoveDiscounts
+    [2] => 
+)
+
+
+Date:Fri, 22 Jun 2018 00:53:49 +0300
+Array
+(
+    [0] => Check fields error
+    [1] => 90
+    [2] => Array
+        (
+            [0] => Неверные условия применения
+        )
+
+)
+
+
+Date:Fri, 22 Jun 2018 00:53:50 +0300
+Array
+(
+    [0] => Check fields error
+    [1] => 117
+    [2] => Array
+        (
+            [0] => Неверные условия применения
+        )
+
+)
+
+
+Date:Fri, 22 Jun 2018 00:53:50 +0300
+Array
+(
+    [0] => Check fields error
+    [1] => 125
+    [2] => Array
+        (
+            [0] => Неверные условия применения
+        )
+
+)
+
+
+Date:Fri, 22 Jun 2018 00:53:51 +0300
+Array
+(
+    [0] => Check fields error
+    [1] => 133
+    [2] => Array
+        (
+            [0] => Неверные условия применения
+        )
+
+)
+
+
+Date:Fri, 22 Jun 2018 00:53:53 +0300
+Array
+(
+    [0] => Check fields error
+    [1] => 171
+    [2] => Array
+        (
+            [0] => Неверные условия применения
+        )
+
+)
+
+
+Date:Fri, 22 Jun 2018 00:53:54 +0300
+Array
+(
+    [0] => Check fields error
+    [1] => 185
+    [2] => Array
+        (
+            [0] => Неверные условия применения
+        )
+
+)
+
+
+Date:Fri, 22 Jun 2018 00:53:54 +0300
+Array
+(
+    [0] => Check fields error
+    [1] => 190
+    [2] => Array
+        (
+            [0] => Неверные условия применения
+        )
+
+)
+
+
+Date:Fri, 22 Jun 2018 00:53:55 +0300
+Array
+(
+    [0] => Check fields error
+    [1] => 196
+    [2] => Array
+        (
+            [0] => Неверные условия применения
+        )
+
+)
+
+
+Date:Fri, 22 Jun 2018 00:53:55 +0300
+Array
+(
+    [0] => Check fields error
+    [1] => 202
+    [2] => Array
+        (
+            [0] => Неверные условия применения
+        )
+
+)
+
+
+Date:Fri, 22 Jun 2018 00:53:55 +0300
+Array
+(
+    [0] => Check fields error
+    [1] => 209
+    [2] => Array
+        (
+            [0] => Неверные условия применения
+        )
+
+)
+
+
+Date:Fri, 22 Jun 2018 00:54:03 +0300
+Array
+(
+    [0] => finished
+    [1] => Step DiscountCatalogMigratormoveDiscounts
+    [2] => 
+)
+
+
+Date:Fri, 22 Jun 2018 00:54:03 +0300
+Array
+(
+    [0] => Start
+    [1] => Step DiscountCatalogMigratormoveCumulativeDiscounts
+    [2] => 
+)
+
+
+Date:Fri, 22 Jun 2018 00:54:03 +0300
+Array
+(
+    [0] => Start
+    [1] => Step DiscountCatalogMigratorrecalculatePriorityForCumulativeDiscounts
+    [2] => 
+)
+
+
+Date:Fri, 22 Jun 2018 00:54:03 +0300
+Array
+(
+    [0] => finished
+    [1] => Step DiscountCatalogMigratorrecalculatePriorityForCumulativeDiscounts
+    [2] => 
+)
+
+
+Date:Fri, 22 Jun 2018 00:54:03 +0300
+Array
+(
+    [0] => finished
+    [1] => Step DiscountCatalogMigratormoveCumulativeDiscounts
+    [2] => 
+)
+
+
+Date:Fri, 22 Jun 2018 00:54:03 +0300
+Array
+(
+    [0] => Start
+    [1] => Step DiscountCatalogMigratormoveCoupons
+    [2] => 
+)
+
+
+Date:Fri, 22 Jun 2018 00:54:21 +0300
+Array
+(
+    [0] => finished
+    [1] => Step DiscountCatalogMigratormoveCoupons
+    [2] => 
+)
+
+
+Date:Fri, 22 Jun 2018 00:54:21 +0300
+Array
+(
+    [0] => Start
+    [1] => Step DiscountCatalogMigratorfillShortDescription
+    [2] => 
+)
+
+
+Date:Fri, 22 Jun 2018 00:54:21 +0300
+Array
+(
+    [0] => finished
+    [1] => Step DiscountCatalogMigratorfillShortDescription
+    [2] => 
+)
+
+
+Date:Fri, 22 Jun 2018 00:54:22 +0300
+Array
+(
+    [0] => finished
+    [1] => Step DiscountCatalogMigratorrun
+    [2] => 
+)
+
+

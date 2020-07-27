@@ -1,0 +1,76 @@
+.packing__box {
+ width:100%;
+ margin-bottom:100px;
+ 
+}
+
+.packing__box h2 {
+ text-align:center;
+ font-weight:normal;
+ font-size:20px;
+}
+
+.packing__box .inner_d{
+  background:#f1f0eb;
+  height:65px;
+  margin-top:70px;
+
+  position:relative;
+}
+
+.packing__box .inner_d img.pack__thumb {    
+  position:absolute;
+  left:20px;
+  top:-45px;
+}
+
+.packing__box .packing_cart {
+ position:relative;
+ width:320px;
+}
+
+.packing__box .packing_cart .text {
+    position:absolute;
+    left:0;
+    top:-40px;
+    width:100%;
+}
+
+.packing_tocart {
+ color:#ffffff;
+ text-decoration:none !important;
+ padding:0 30px;
+}
+
+.pack_price {
+    padding-left:15px; 
+}
+
+.packing__box .quantVal {
+ width:20px;
+ vertical-align:bottom;
+}
+
+.packing__box td .quanDesc, .packing__box td .quanAsc {
+  width:20px;
+  height:20px;
+  cursor:pointer;
+}
+
+.packing__box td .quanDesc {
+ background:url(/i/plus-minus-cart.png) no-repeat right 0;
+}
+
+.packing__box td .quanDesc.disabled {
+ background:url(/i/plus-minus-cart.png) no-repeat right bottom;
+ cursor:default;
+}
+
+.packing__box td .quanAsc {
+ background:url(/i/plus-minus-cart.png) no-repeat 0 0;
+}
+
+.packing__box td .quanAsc.disabled {
+ background:url(/i/plus-minus-cart.png) no-repeat 0 bottom;
+ cursor:default;
+}

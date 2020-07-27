@@ -1,0 +1,263 @@
+.catalogElement  {
+  position:relative;
+}
+.catalogElement .scrollThumbs {
+ width:85px;
+ height:540px;
+ overflow:hidden;
+ float:left;
+ position:relative;
+}
+
+.catalogElement .scrollThumbs .thumbs {
+ height: 1000em;
+ width: 85px;
+ position: absolute;
+ clear: both;    
+}
+
+.catalogElement .scrollThumbs  .thumb {
+ width:80px;
+ height:80px;
+ border-radius:5px;
+ background-repeat:no-repeat;
+ background-position:center center;
+ border:1px solid #b7ba9d;
+ margin-bottom:5px;
+ cursor:pointer;
+}
+
+.catalogElement .scrollThumbs  .thumb.active {
+   cursor:default;
+   opacity:0.6;
+}
+
+.catalogElement .pic {
+ width:500px;
+ margin:0 30px 0 40px;
+ float:left;
+  overflow:hidden;
+}
+
+.catalogElement .detail {
+ width:300px;
+ float:right;
+ text-align:left; 
+}
+
+.catalogElement .productNotify2 {
+   margin:0;
+}
+
+.catalogElement .detail .toWishList {
+ width:auto;
+ padding-left:30px;
+ background-position:left 0px;
+ line-height:30px;
+ margin:15px 0 10px 0;
+}
+
+.catalogElement .detail .toWishList.active {
+ background: url(/i/wishlist-pr.png) no-repeat 0 -29px;
+}
+
+.catalogElement .detail .designer {
+ font-size:25px;
+ 
+}
+
+
+.catalogElement .detail .price {
+ font-size:18px;
+}
+
+
+.catalogElement .detail .description {
+ margin:20px 0;          
+}
+
+.catalogElement .detail .addToCart {
+ display:block;
+ border:none;
+ width:155px;
+ height:37px;
+ background:url(/i/add-to-cart.png) no-repeat 0 0;
+ cursor:pointer;
+ margin-top: 15px;
+}
+
+.catalogElement .detail .addToCart.active {
+  background:url(/i/add-to-cart.png) no-repeat 0 bottom;  
+}
+
+.catalogElement .detail  .shareFriends {
+ margin-top:30px;
+}
+
+.catalogElement .detail  .shareFriends .socs {
+ margin:5px 0;
+}
+
+.catalogElement .detail  .shareFriends .socs a {
+ margin: 0px 8px 0px 0px;
+}
+
+.recProducts {
+   margin-top:0px;
+}
+
+.recProducts  .caption {
+ position:relative;
+ text-align: center; 
+}
+
+.recProducts  table td {
+ vertical-align:top;
+}
+
+.recProducts .caption span {
+  background: white;
+  position: relative;
+  z-index: 2;
+  padding: 0 10px;  
+  line-height: 1.2em;
+}
+
+.recProducts hr  {
+margin: 0;
+padding: 0;
+position: absolute;
+width: 100%;
+top: 50%;
+bottom: 50%;
+margin-top:-2px;
+left: 0;
+z-index: 1;
+background: #9c9f84;
+color: #9c9f84;
+border: none;
+height: 1px;
+}
+
+.recommendProduct {
+ width:100px;
+ margin:0 auto;
+ text-align:center;
+}
+
+
+.recProducts td {
+   width:155px;
+
+}
+
+.recommendProduct .thumb {
+   height:110px;
+   
+}
+
+.recommendProduct .thumb  img {
+  max-height:100%;
+  max-width:100%;
+}
+
+
+.b-share  .b-share-icon {
+   width:23px;
+   height:23px;
+}
+.b-share  .b-share-icon.b-share-icon_twitter {
+  background:url(/i/icons/share-twitter.png) no-repeat;
+}
+
+.b-share  .b-share-icon.b-share-icon_facebook {
+  background:url(/i/icons/share-fb.png) no-repeat;
+}
+.b-share {
+   vertical-align:bottom !important; 
+}
+.b-share .b-share__handle {
+   height:auto;
+}
+
+
+.b-share  .b-share-icon.b-share-icon_vkontakte {
+  background:url(/i/icons/share-vk.png) no-repeat;
+  width:30px;
+}
+
+
+.designerDetailInfo {
+  position:absolute;
+  display:none;
+  top:11px;
+  padding:20px;
+  width:775px;
+  background:#eeebe4;
+  border-radius:8px;
+  color:#2b2f12;
+  box-shadow:4px 5px 25px rgba(0, 0, 0, 0.3);
+}
+
+.designerDetailInfo h3 {
+font-weight: normal;
+font-size: 30px;
+margin: 0 0 10px 0;
+}
+
+.designerDetailInfo #x {
+ width:20px;
+ height:20px;
+ background:url(/i/x.png) no-repeat;
+ position:absolute;
+ right:10px;
+ top:-8px;
+ cursor:pointer;
+}
+
+#showDesignerDetail {
+  cursor:pointer;
+  position:relative;
+  top:-2px;
+}
+
+.findYourSize {
+  float:left;
+  margin: 10px 0 0 20px;
+  cursor:pointer;
+  text-decoration:underline;
+}
+
+.findYourSize:hover {
+   text-decoration:none;
+}
+
+.sizeDetailInfo {
+ position: absolute;
+ display: none;
+ top: 11px;
+ margin-left:80px;
+ padding: 20px;
+ width: 775px;
+ 
+ z-index:100;
+ background: #eeebe4;
+ border-radius: 8px;
+ color: #2b2f12;
+ box-shadow: 4px 5px 25px rgba(0, 0, 0, 0.3);
+ 
+}
+.sizeDetailInfo  .inner {
+ overflow-y:scroll;
+ height:500px; 
+}
+
+.modalClose {
+ width: 20px;
+ height: 20px;
+ background: url(/i/x.png) no-repeat;
+ position: absolute;
+ right: 10px;
+ top: -8px;
+ cursor: pointer; 
+}

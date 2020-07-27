@@ -1,0 +1,165 @@
+.cart_basket_items  {
+ width:100%;
+}
+
+.cart_basket_items th {	
+ font-weight:normal;
+}
+
+
+.cart_basket_item {
+ height:20px;
+ background:#f1f0eb;
+}
+
+
+.cart_basket_item td {
+  padding:7px;	
+}
+
+.cart_basket_items-separate {
+  height:10px;
+  font-size:1px;
+}
+
+.cart_basket_item-del {
+ width:17px;
+ height:17px;
+ background:url(/i/delfromcart.png) no-repeat center center;
+ cursor:pointer;
+ margin:0 auto;	
+}
+
+.cart_basket_button_order {
+float:right;
+}
+
+
+.cart_basket_button_shoping  {
+ display:block;
+ float:left;
+ text-decoration:none;
+ padding:0 10px;
+ background:#e3e1d4;
+ color:#94947c;
+ margin:0;
+}
+.cart_basket_button_order:hover {
+   text-decoration:none;
+}
+
+.cart_basket_summary {
+ float:right;
+ font-size:18px;
+ padding:30px 0 20px 0;
+}
+
+.cart_basket_summary-discount span,  .cart_basket_summary-totalprice span {
+ 	
+}
+
+.cart_basket_item-designer, .cart_basket_item-name {
+ font-size:15px;  
+}
+
+.cart_basket_item-thumb {
+  height:80px;
+  line-height:80px;
+  position:relative;
+}
+
+.cart_basket_item-img {
+  position:absolute;
+  left:100%;
+  top:-250px;
+  margin-left:10px;      
+  z-index:100;
+  display:none;
+}
+
+.cart_basket_item-img img {
+  padding:1px;
+  background:#b7b59e;
+}
+
+
+.b-quantity {
+ margin:0 auto;  
+}
+
+.b-quantity  td {
+ vertical-align:middle;
+ padding:0;
+}
+
+.b-quantity_dec, .b-quantity_inc {
+  width:20px;
+  height:20px;
+  cursor:pointer;
+}
+
+
+.b-quantity_dec  {
+ background:url(/i/plus-minus-cart.png) no-repeat right 0;
+}
+
+.b-quantity_dec.disabled {
+ background:url(/i/plus-minus-cart.png) no-repeat right bottom;
+ cursor:default;
+}
+
+.b-quantity_inc  {
+ background:url(/i/plus-minus-cart.png) no-repeat 0 0;
+}
+
+.b-quantity_inc.disabled {
+ background:url(/i/plus-minus-cart.png) no-repeat 0 bottom;
+ cursor:default;
+}
+
+.b-quantity_val {
+ padding-top:5px;
+ width:30px; 
+}
+
+.b-promocode {
+  float:right;
+  font-size:14px;
+  position:relative;
+}
+
+.b-promocode_ref {
+  border-bottom:1px dashed #808168;
+  display:inline-block;
+  line-height:1.1;
+ cursor:pointer;  
+}
+
+
+.b-promocode_form {
+ display:none;
+ position:absolute;
+ right:0;
+ top:0;
+ width:350px;
+}
+
+.b-promocode_form-btn {
+  color: white;
+ background: #E3E1D4;
+ color: #94947C;
+ height:31px;
+ line-height:37px;
+ text-decoration: none !important;
+  padding: 0 10px;
+  margin:5px 0 0 5px;
+}
+
+.cart_basket_pack {
+  width:380px;
+  position:absolute;
+  left:0;
+  bottom:45px;
+  
+}
+

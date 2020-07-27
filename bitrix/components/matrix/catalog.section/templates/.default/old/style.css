@@ -1,0 +1,111 @@
+
+.catalog-section .product_item {
+ width:302px;
+ float:left; 
+ height:505px;
+ margin-right:27px;
+ overflow:hidden;
+}
+
+.catalog-section .product_item .inner {
+ text-align:center;
+ padding:0px 0 5px 0;
+ border:1px solid transparent;
+}
+
+
+.catalog-section .product_item .inner .thumb {   
+  height:300px;
+}
+
+.catalog-section .product_item .inner .thumb a {
+  display:block; 
+}
+.catalog-section .product_item .inner img {
+ max-width:100%;
+ max-height:100%; 
+}
+
+
+.catalog-section .product_item:hover .inner {
+ border:1px solid #bcbba6;
+ border-radius:4px;
+}
+
+.catalog-section .product_item .name {
+ margin-bottom:6px;
+ padding-left: 15px;
+ padding-right: 15px;
+}
+
+
+.catalog-section .product_item .price {
+ height:32px;
+ margin:0 auto;
+ position:relative;
+ margin-bottom: 5px;
+}
+
+ 
+
+.catalog-section .product_item .price .cartWrap {
+ position:absolute;
+ right:-36px;
+ top:0; 
+ display:none;
+ width:34px;
+ height:32px;   
+}
+
+.catalog-section .product_item .price .addToCart { 
+  width:31px;
+  height:32px;  
+  display:block;
+  background:url(/i/icons/bag-bye.png) no-repeat center center;
+  border:none;
+  outline:none;
+  cursor:pointer;
+}
+
+
+
+.catalog-section .product_item:hover .price_old {
+  display:none;
+}
+
+
+.catalog-section .product_item:hover .price .cartWrap {  
+  display:block;
+  border-left:1px solid #88985a;
+  background:url(/i/bgs/grad-green.png) repeat-x 0 0;
+  border-radius:0 3px 3px 0;
+}
+
+.catalog-section .product_item .productNotify , .catalog-section .product_item .toNotifyList {
+ display:none;
+}
+
+.catalog-section .product_item:hover .productNotify, .catalog-section .product_item:hover .toNotifyList {
+ display:block;
+}
+
+.add_to_cart {
+  cursor:pointer;
+}
+
+.thumb {
+  
+  
+}
+
+.thumb img.last {
+  display:none !important; 
+}
+
+.thumb a.active img.first {
+  display:none !important; 
+}
+
+.thumb a.active img.last {
+  display:block !important; 
+}

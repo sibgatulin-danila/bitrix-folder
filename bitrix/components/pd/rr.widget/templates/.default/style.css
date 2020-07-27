@@ -1,0 +1,105 @@
+.recommended_list {
+    /*padding: 0 20px;*/
+    margin-bottom: 15px;
+}
+.recommended_item {
+    margin: 0 7px;
+    width: 166px;
+    display: inline-block;
+    vertical-align: top;
+    text-align: center;
+}
+.rec_brand {
+    color: #000;
+    font-family: Oranienbaum;
+    font-size: 20px;
+    display: block;
+    text-align: center;
+}
+.rec_pic {
+    display: block;
+    height: 160px;
+    margin-bottom: 8px;
+}
+.rec_pic img{
+    width: 100%;
+}
+.rec_link {
+    color: #9d9d9c;
+    display: block;
+    text-align: center;
+    min-height: 80px;
+}
+.rec_prices {
+    text-align: center;
+}
+
+.rec_prices {
+    color: #7b9341;
+}
+
+.rec_new_price {
+    color: #fc266e;
+}
+
+.rec_old_price {
+    color: #7b9341;
+    text-decoration: line-through;
+}
+
+.rec_title {
+    text-align: center;
+    font-size: 16px;
+    color: #000;
+    margin-bottom: 25px;
+    position: relative;
+}
+
+.rec_title span {
+    background-color: #ffffff;
+    position: relative;
+    font-size: 18px;
+    padding: 0 5px;
+}
+
+.title_line {
+    /*background-color: #d0cec0;*/
+    background-color: #D8D8D8;
+    width: 100%;
+    height: 1px;
+    position: absolute;
+    top: 12px;
+    left: 0;
+}
+/*
+
+.last_rec {
+    display: none;
+}*/
+
+.recommended_list .owl-buttons {
+    position: absolute;
+    top: 60px;
+    width: 100%;
+    left: 0;
+}
+.recommended_list .owl-buttons div {
+    width: 26px;
+    height: 70px;
+    background: url('/js/owl-carousel/arrows.png') no-repeat left top;
+    position: absolute;
+    top: 0;
+}
+.recommended_list .owl-buttons .owl-prev {
+    left: -30px;
+}
+.recommended_list .owl-buttons .owl-next {
+    background-position: -35px 0;
+    right: -30px;
+}
+
+.recommended_list .b_product_addtocart {
+    float: none;
+    margin: 10px 0 0;
+    padding: 0 20px;
+}

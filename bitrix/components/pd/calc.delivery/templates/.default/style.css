@@ -1,0 +1,42 @@
+#topDeliveryLocation {
+ background:#f1f0eb;
+ padding:40px 0;
+ margin-bottom:10px;
+ position:relative;
+}
+
+ .delivery_table .delivery_info {
+  text-align:center;
+  vertical-align:middle;
+ 
+ }
+ 
+ .delivery_table td.first {
+    text-align:right;
+    width:250px;    
+    color:#000;
+    padding-right:60px;
+ }
+ 
+ .delivery_table tr td {
+   background:#e2e1d5;
+   padding:22px 0;
+  }
+ 
+ .delivery_table tr.even td {
+   background:#f1f0eb;
+ }
+ 
+.progress {
+  background:url(/i/preloader-15-5.gif) no-repeat;
+  width:110px;
+  height:20px;
+  position:absolute;
+  bottom:8px;
+  left:50%;
+  display:none;
+  margin-left:-55px;
+  margin-top:-10px;
+}
+
+.errAutoComplete {display:none;position:absolute;bottom:-30px;font-size:12px;line-height:1.1em;color:#FF2771;}

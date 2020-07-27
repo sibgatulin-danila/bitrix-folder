@@ -1,0 +1,113 @@
+2014-12-29 17:09:57 - Host: poisondrop.ru - FATAL - [ErrorException] E_PARSE
+syntax error, unexpected '.' (0)
+/var/www/html/bitrix/modules/vsfr.merchant/load/yandex_run.php:242
+----------
+2014-12-30 16:29:14 - Host: poisondrop.ru - FATAL - [ErrorException] E_PARSE
+syntax error, unexpected '=', expecting ')' (0)
+/var/www/html/bitrix/components/zeon/sale.basket.basket/component.php:126
+----------
+2014-12-30 16:29:54 - Host: poisondrop.ru - FATAL - [ErrorException] E_PARSE
+syntax error, unexpected '=', expecting ')' (0)
+/var/www/html/bitrix/components/zeon/sale.basket.basket/component.php:126
+----------
+2014-12-30 16:29:56 - Host: poisondrop.ru - FATAL - [ErrorException] E_PARSE
+syntax error, unexpected '=', expecting ')' (0)
+/var/www/html/bitrix/components/zeon/sale.basket.basket/component.php:126
+----------
+2014-12-30 16:29:57 - Host: poisondrop.ru - FATAL - [ErrorException] E_PARSE
+syntax error, unexpected '=', expecting ')' (0)
+/var/www/html/bitrix/components/zeon/sale.basket.basket/component.php:126
+----------
+2014-12-30 16:29:58 - Host: poisondrop.ru - FATAL - [ErrorException] E_PARSE
+syntax error, unexpected '=', expecting ')' (0)
+/var/www/html/bitrix/components/zeon/sale.basket.basket/component.php:126
+----------
+2014-12-30 16:29:58 - Host: poisondrop.ru - FATAL - [ErrorException] E_PARSE
+syntax error, unexpected '=', expecting ')' (0)
+/var/www/html/bitrix/components/zeon/sale.basket.basket/component.php:126
+----------
+2014-12-30 16:30:01 - Host: poisondrop.ru - FATAL - [ErrorException] E_PARSE
+syntax error, unexpected '=', expecting ')' (0)
+/var/www/html/bitrix/components/zeon/sale.basket.basket/component.php:126
+----------
+2014-12-30 16:30:01 - Host: agenda.elkar.com - FATAL - [ErrorException] E_PARSE
+syntax error, unexpected '=', expecting ')' (0)
+/var/www/html/bitrix/components/zeon/sale.basket.basket/component.php:126
+----------
+2014-12-30 16:30:01 - Host: agenda.elkar.com - FATAL - [ErrorException] E_PARSE
+syntax error, unexpected '=', expecting ')' (0)
+/var/www/html/bitrix/components/zeon/sale.basket.basket/component.php:126
+----------
+2014-12-30 16:30:01 - Host: poisondrop.ru - FATAL - [ErrorException] E_PARSE
+syntax error, unexpected '=', expecting ')' (0)
+/var/www/html/bitrix/components/zeon/sale.basket.basket/component.php:126
+----------
+2014-12-30 16:30:02 - Host: poisondrop.ru - FATAL - [ErrorException] E_PARSE
+syntax error, unexpected '=', expecting ')' (0)
+/var/www/html/bitrix/components/zeon/sale.basket.basket/component.php:126
+----------
+2014-12-30 16:30:02 - Host: poisondrop.ru - FATAL - [ErrorException] E_PARSE
+syntax error, unexpected '=', expecting ')' (0)
+/var/www/html/bitrix/components/zeon/sale.basket.basket/component.php:126
+----------
+2014-12-30 16:30:04 - Host: poisondrop.ru - FATAL - [ErrorException] E_PARSE
+syntax error, unexpected '=', expecting ')' (0)
+/var/www/html/bitrix/components/zeon/sale.basket.basket/component.php:126
+----------
+2014-12-30 16:30:12 - Host: www.poisondrop.ru - FATAL - [ErrorException] E_PARSE
+syntax error, unexpected '=', expecting ')' (0)
+/var/www/html/bitrix/components/zeon/sale.basket.basket/component.php:126
+----------
+2014-12-30 16:30:19 - Host: poisondrop.ru - FATAL - [ErrorException] E_PARSE
+syntax error, unexpected '=', expecting ')' (0)
+/var/www/html/bitrix/components/zeon/sale.basket.basket/component.php:126
+----------
+2015-01-06 17:59:38 - Host: poisondrop.ru - UNCAUGHT_EXCEPTION - [Bitrix\Main\DB\SqlQueryException] 
+Mysql query error: Duplicate entry '1420556378083367' for key 'PRIMARY' (400)
+INSERT INTO b_counter_data(`ID`, `TYPE`, `DATA`) VALUES ('1420556378083367', 'basket', 'a:6:{s:10:\"product_id\";i:13640;s:7:\"user_id\";N;s:10:\"bx_user_id\";s:32:\"f828b2245c4c5add8d2d7938041525d5\";s:6:\"domain\";s:13:\"poisondrop.ru\";s:14:\"recommendation\";s:1:\"0\";s:4:\"date\";s:24:\"2015-01-06T17:59:38+0300\";}')
+/var/www/html/bitrix/modules/main/lib/db/mysqlconnection.php:104
+#0: Bitrix\Main\DB\MysqlConnection->queryInternal(string, array, NULL)
+	/var/www/html/bitrix/modules/main/lib/db/connection.php:332
+#1: Bitrix\Main\DB\Connection->query(string, NULL)
+	/var/www/html/bitrix/modules/main/lib/db/connection.php:381
+#2: Bitrix\Main\DB\Connection->queryExecute(string)
+	/var/www/html/bitrix/modules/main/lib/db/connection.php:456
+#3: Bitrix\Main\DB\Connection->add(string, array, NULL)
+	/var/www/html/bitrix/modules/main/lib/entity/datamanager.php:517
+#4: Bitrix\Main\Entity\DataManager::add(array)
+	/var/www/html/bitrix/modules/main/lib/analytics/catalog.php:59
+#5: Bitrix\Main\Analytics\Catalog::catchCatalogBasket(integer, array)
+	
+#6: call_user_func_array(array, array)
+	/var/www/html/bitrix/modules/main/classes/general/module.php:472
+#7: ExecuteModuleEventEx(array, array)
+	/var/www/html/bitrix/modules/sale/mysql/basket.php:665
+#8: CSaleBasket::Add(array)
+	/var/www/html/bitrix/modules/catalog/include.php:1518
+#9: Add2BasketByProductID(string, integer, array, array)
+	/var/www/html/bitrix/components/zeon/sale.basket.basket/component.php:164
+#10: include(string)
+	/var/www/html/bitrix/modules/main/classes/general/component.php:472
+#11: CBitrixComponent->__includeComponent()
+	/var/www/html/bitrix/modules/main/classes/general/component.php:515
+#12: CBitrixComponent->includeComponent(string, array, boolean)
+	/var/www/html/bitrix/modules/main/classes/general/main.php:1011
+#13: CAllMain->IncludeComponent(string, string, array, boolean)
+	/var/www/html/bitrix/templates/matrix/header.php:130
+#14: include_once(string)
+	/var/www/html/bitrix/modules/main/include/prolog_after.php:87
+#15: require(string)
+	/var/www/html/bitrix/modules/main/include/prolog.php:12
+#16: require_once(string)
+	/var/www/html/bitrix/header.php:1
+#17: require(string)
+	/var/www/html/index.php:2
+----------
+2015-01-09 20:36:26 - Host: poisondrop.ru - FATAL - [ErrorException] E_PARSE
+syntax error, unexpected end of file (0)
+/var/www/html/bitrix/components/zeon/nameplate/templates/.default/template.php:202
+----------
+2015-01-09 20:36:39 - Host: poisondrop.ru - FATAL - [ErrorException] E_PARSE
+syntax error, unexpected end of file (0)
+/var/www/html/bitrix/components/zeon/nameplate/templates/.default/template.php:202
+----------

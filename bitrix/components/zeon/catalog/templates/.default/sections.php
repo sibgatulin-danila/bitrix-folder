@@ -1,0 +1,4 @@
+<?
+//LocalRedirect('/');
+//die;
+?>

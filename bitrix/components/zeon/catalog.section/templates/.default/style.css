@@ -1,0 +1,248 @@
+.b_catalog_section  {
+ 
+ letter-spacing: -0.3em;
+ margin: 0 -13.5px;
+}
+
+.b_product_item{
+ width:302px;
+ display:inline-block;
+ height:450px;
+ /* margin-right:27px; */ 
+ padding: 0 13.5px;
+ position:relative;
+ letter-spacing: normal;
+ vertical-align:top;
+}
+
+/* .b_product_item-lastinrow {
+  margin-right: 0;
+} */
+.b_product_item-noactive {
+ opacity:0.4;  
+}
+
+.b_product_item-open{
+ /*margin-bottom:550px;*/
+ margin-bottom:912px;
+ vertical-align:baseline;
+}
+
+.b_product_item-open .b_product_item_detail_pointer {
+  display: block;
+}
+
+
+.b_product_item_inner{
+ text-align:center;
+ padding:0px 0 5px 0;
+ border:1px solid transparent;
+}
+
+.b_product_item_thumb {   
+  height:300px;
+  position:relative;
+  margin-bottom:8px;
+}
+
+.b_product_item_thumb a {
+  display:block; 
+}
+
+.b_product_item_thumb_last {
+ display: none;  
+}
+
+
+.b_product_item_thumb_first, .b_product_item_thumb_last {
+ max-width: 100%;
+ max-height:100%; 
+}
+.wish_logo {
+  position: absolute;
+  width: 32px;
+  height: 32px;
+  background: url(/i/wl.png) 0 0 no-repeat;
+  top: 10px;
+  left: 10px;
+  z-index: 10;
+  cursor: pointer;
+  opacity: 0.6;
+  display: none;
+}
+
+
+.b_product_item_thumb-two:hover .b_product_item_thumb_first {
+ display: none;
+}
+
+.b_product_item_thumb-two:hover .b_product_item_thumb_last {
+ display: block;
+}
+
+.b_product_item_thumb-two:hover .wish_logo {
+  display: block;
+}
+
+.b_product_item_inner_thumb img {
+ max-width:100%;
+ max-height:100%; 
+}
+
+.b_product_item_brand {   
+   
+}
+.b_product_item_brand a {
+ color:#000 ;
+font-family: Oranienbaum;
+font-size: 20px;
+}
+
+.b_product_item_inner_name {
+ margin-bottom:6px;
+ padding-left: 15px;
+ padding-right: 15px;
+}
+
+
+.b_product_item_exclusive {
+ background: #FF216C;
+ color: #FFF;
+ display: inline-block;
+ font-size: 12px;
+ line-height: 12px;
+ height: 12px;
+ font-family: Arial;
+ padding: 1px 7px 2px 7px;
+ margin-bottom:5px;
+}
+
+
+
+.b_product_item_inner_price {
+ height:32px;
+ margin:0 auto;
+ position:relative;
+ margin-bottom: 5px;
+}
+
+
+.b_product_item_oldprice {
+ text-decoration: line-through;
+}
+
+.b_product_item_detail  {
+ letter-spacing:normal;
+ display: block;
+position: absolute;
+margin: 0;
+font-size: 14px;
+left: 0;
+width: 100%;
+background: rgba(0, 0, 0, 0.8);
+/*margin-top:-560px;*/
+margin-top:-922px;
+ }
+ 
+.b_product_item_detail_content {
+  background: #fff;
+  width: 960px;
+  margin: 0 auto;
+  padding: 30px 20px 10px 20px;
+  position: relative;
+  height:0;
+  overflow: hidden;
+  
+}
+
+.b_product_item_detail_shadowbar-top, .b_product_item_detail_shadowbar-bottom {
+ background-repeat: repeat-x;
+ height: 12px; 
+ width: 100%;
+ position: absolute;
+ left: 0;
+ z-index: 5;
+}
+
+.b_product_item_detail_shadowbar-top {
+ top: 0;
+ background-image: url(/i/2shadow.png);
+}
+
+.b_product_item_detail_shadowbar-bottom {
+  bottom: 0;
+ background-position: 0 bottom;
+ background-image: url(/i/2shadow.png);
+}
+
+.b_product_item_detail_content .b_site_content_bar {
+  display: none;
+}
+
+.b_product_item_detail_pointer {
+display: block;
+width: 51px;
+height: 34px;
+background: url(/i/arr_up_.png) no-repeat;
+position: absolute;
+left: 50%;
+margin-left: -24px;
+bottom: -3px;
+z-index: 20;
+display: none;
+ 
+}
+
+.product_item_loader {
+  width:104px;
+  height:10px;
+  background: url(/i/preloader-15-5.gif) no-repeat;
+  position:absolute;
+  left: 50%;
+  margin-left:-52px;
+  bottom:35px;
+}
+
+.b-share  .b-share-icon {
+   width:23px;
+   height:23px;
+   margin-top:7px;
+}
+.b-share  .b-share-icon.b-share-icon_twitter {
+  background:url(/i/icons/share-twitter.png) no-repeat;
+}
+
+.b-share  .b-share-icon.b-share-icon_mail {
+    background:url(/i/icons/share-mail.png) no-repeat;
+    height:19px;
+}
+
+
+
+.b-share  .b-share-icon.b-share-icon_facebook {
+  background:url(/i/icons/share-fb.png) no-repeat;
+}
+.b-share {
+   vertical-align:bottom !important; 
+}
+.b-share .b-share__handle {
+   height:auto;
+}
+
+
+.b-share  .b-share-icon.b-share-icon_vkontakte {
+  background:url(/i/icons/share-vk.png) no-repeat;
+}
+
+.tagit-autocomplete.ui-autocomplete { position: absolute !important;}
+
+
+.wish_logo.active {
+  background: url(/i/wl.png) 0 -36px no-repeat;
+  display: block;
+  opacity: 1;
+}
+
+.wish_logo.show {
+  display: block!important;
+}
